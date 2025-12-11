@@ -27,6 +27,11 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
+      - name: Install Jupyter
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install jupyter nbconvert
+
       - name: Build Jekyll site
         run: bundle exec jekyll build
 

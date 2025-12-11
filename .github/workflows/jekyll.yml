@@ -15,29 +15,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
           bundler-cache: true
 
-      # OPTIONAL — if your al-folio site uses .ipynb
-      - name: Install Jupyter
+      - name: Install Jupyter (if needed)
         run: |
           python3 -m pip install --upgrade pip
           pip install jupyter nbconvert
 
-      # OPTIONAL — al-folio uses ImageMagick for automatic image resizing
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
-      # THIS is the correct non-deprecated uploader for GitHub Pages
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:

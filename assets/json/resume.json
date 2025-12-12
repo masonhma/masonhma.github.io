@@ -54,8 +54,7 @@
       "studyType": "PhD",
       "startDate": "2020",
       "endDate": "2026",
-      "courses": ["Dissertation title: An Automated Algorithm Framework of Dynamical Systems Discovery, Bifurcation and Stability Analysis to Advance Machine Tool Chatter Theory and Applications"]
-      "logo": "assets/img/logos/utk.jpg"
+      "logo": "utk.jpg"
     }
     {
       "institution": "University of Wisconsin-Madison",
@@ -65,7 +64,7 @@
       "studyType": "MS",
       "startDate": "2018",
       "endDate": "2019",
-      "logo": "assets/img/logos/UW_madison_logo.png"
+      "logo": "UW_madison_logo.png"
     }
     {
       "institution": "Peking University",
@@ -75,7 +74,7 @@
       "studyType": "MS",
       "startDate": "2014",
       "endDate": "2017",
-      "logo": "assets/img/logos/pku_logo.png"
+      "logo": "pku_logo.png"
     }
     {
       "institution": "Tsinghua University",
@@ -85,7 +84,7 @@
       "studyType": "BS",
       "startDate": "2010",
       "endDate": "2014",
-      "logo": "assets/img/logos/thu.png"
+      "logo": "thu.png"
     }
   ],
   "awards": [

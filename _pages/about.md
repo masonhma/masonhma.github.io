@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 research_interests:
   - Solid-state additive manufacturing, machining, hybrid manufacturing, smart manufacturing
-  - Machine-tool-process-materials relation: mechanics, vibration, materials behaviors, CNC design
+  - "Machine-tool-process-materials relation: mechanics, vibration, materials behaviors, CNC design"
   - Machine tool vibration theory and applications for machining and additive friction stir deposition
   - Analytical and numerical process modeling from machine tool to materials behaviors
   - Dynamical systems modeling, bifurcation, control and automation for manufacturing processes

@@ -15,7 +15,6 @@
 email: hma19@vols.utk.edu # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
@@ -56,3 +55,4 @@ scholar_userid: yKV_P5cAAAAJ # your Google Scholar ID
 #  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #  title: Custom Social
 #  url: https://www.alberteinstein.com/
+github_username: masonhma # your GitHub user name

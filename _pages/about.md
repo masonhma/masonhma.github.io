@@ -45,8 +45,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 ## Education
 
 <div class="container" style="max-width: 900px; margin-top: 2rem;">
-  <h2>Education</h2>
-
   {% assign educations = site.data.resume.education | sort: 'startDate' | reverse %}
   {% for edu in educations %}
     <div class="row mb-4 align-items-center edu-row">

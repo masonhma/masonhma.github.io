@@ -47,15 +47,45 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Tennessee, Knoxville",
+      "location": "Knoxville, TN, USA",
+      "url": "https://www.utk.edu/",
+      "area": "Industrial Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2020",
+      "endDate": "2026",
+      "courses": ["Dissertation title: An Automated Algorithm Framework of Dynamical Systems Discovery, Bifurcation and Stability Analysis to Advance Machine Tool Chatter Theory and Applications"]
+      "logo": "assets/img/logos/utk.jpg"
+    }
+    {
+      "institution": "University of Wisconsin-Madison",
+      "location": "Madison, WI, USA",
+      "url": "https://www.wisc.edu/",
+      "area": "Industrial Engineering",
+      "studyType": "MS",
+      "startDate": "2018",
+      "endDate": "2019",
+      "logo": "assets/img/logos/UW_madison_logo.png"
+    }
+    {
+      "institution": "Peking University",
+      "location": "Beijing, China",
+      "url": "https://www.pku.edu.cn/",
+      "area": "Management Science and Engineering",
+      "studyType": "MS",
+      "startDate": "2014",
+      "endDate": "2017",
+      "logo": "assets/img/logos/pku_logo.png"
+    }
+    {
+      "institution": "Tsinghua University",
+      "location": "Beijing, China",
+      "url": "https://www.tsinghua.edu.cn/",
+      "area": "Automations Science and Engineering",
+      "studyType": "BS",
+      "startDate": "2010",
+      "endDate": "2014",
+      "logo": "assets/img/logos/thu.png"
     }
   ],
   "awards": [

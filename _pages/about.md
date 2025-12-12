@@ -44,65 +44,40 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Education
 
-<div class="container" style="max-width: 900px; margin-top: 2rem;">
-  {% assign educations = site.data.resume.education | sort: 'startDate' | reverse %}
-  {% for edu in educations %}
-    <div class="row mb-4 align-items-center edu-row">
-      <!-- Logo column -->
-      <div class="col-3 col-md-2 d-flex justify-content-center">
-        {% if edu.logo %}
-          <div class="edu-logo-wrap">
-            <img
-              src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
-              alt="{{ edu.institution }} logo"
-              class="edu-logo"
-            >
-          </div>
-        {% endif %}
-      </div>
-
-      <!-- Text column -->
-      <div class="col-9 col-md-10">
-        <div class="edu-text">
-          <h4 class="mb-1 edu-title">{{ edu.institution }}</h4>
-          <div class="edu-subtitle">
-            {{ edu.studyType }}, {{ edu.area }}, {{ edu.startDate }}–{{ edu.endDate }}
-          </div>
-
-          {% if edu.extra %}
-            <ul class="mb-0 mt-1">
-              {% for line in edu.extra %}
-                <li>{{ line }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-      </div>
+<div class="education-list">
+{% assign education = site.data.resume.education | sort: "startDate" | reverse %}
+{% for edu in education %}
+  <div class="row mb-4 align-items-center">
+    <!-- Logo column -->
+    <div class="col-3 col-md-2 text-center">
+      {% if edu.logo %}
+        <img
+          src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
+          alt="{{ edu.institution }} logo"
+          style="max-width: 70px;"
+        >
+      {% endif %}
     </div>
-  {% endfor %}
+
+    <!-- Text column -->
+    <div class="col-9 col-md-10">
+      <h4 class="mb-1">{{ edu.institution }}</h4>
+
+      <p class="mb-1">
+        {{ edu.studyType }}, {{ edu.area }},
+        {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
+      </p>
+
+      {% if edu.extra %}
+        {% for line in edu.extra %}
+          <p class="mb-0">{{ line }}</p>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+  </div>
+{% endfor %}
 </div>
-
-<style>
-  /* Fixed logo box + true centering */
-  .edu-logo-wrap{
-    width: 90px;           /* change once: 80/90/100 */
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .edu-logo{
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;   /* crucial */
-    display: block;
-  }
-
-  /* Make text start at the same x-position and look consistent */
-  .edu-text{ padding-left: 6px; }
-  .edu-title{ line-height: 1.1; }
-  .edu-subtitle{ font-size: 1.05rem; }
-</style>
 
 
 

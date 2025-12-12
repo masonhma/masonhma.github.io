@@ -80,7 +80,7 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 
 
 
-## Research Interests
+## Research interests
 
 <ul>
 {% for item in page.research_interests %}

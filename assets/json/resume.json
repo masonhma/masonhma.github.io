@@ -55,7 +55,7 @@
       "startDate": "2020",
       "endDate": "2026",
       "logo": "utk.jpg"
-    }
+    },
     {
       "institution": "University of Wisconsin-Madison",
       "location": "Madison, WI, USA",
@@ -65,7 +65,7 @@
       "startDate": "2018",
       "endDate": "2019",
       "logo": "UW_madison_logo.png"
-    }
+    },
     {
       "institution": "Peking University",
       "location": "Beijing, China",
@@ -75,7 +75,7 @@
       "startDate": "2014",
       "endDate": "2017",
       "logo": "pku_logo.png"
-    }
+    },
     {
       "institution": "Tsinghua University",
       "location": "Beijing, China",

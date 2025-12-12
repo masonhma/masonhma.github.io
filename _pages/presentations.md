@@ -6,6 +6,12 @@ nav: true
 nav_order: 4
 ---
 
-## Invited & Conference Talks
+## Invited Talks
+{% bibliography --file talks --query @talk[type=Invited Talk] %}
 
-{% bibliography --file talks --query @talk %}
+## Conference Talks
+{% bibliography --file talks --query @talk[type=Conference Talk] %}
+
+## Posters
+{% bibliography --file talks --query @talk[type=Poster] %}
+

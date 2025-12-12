@@ -1,0 +1,19 @@
+@talk{ma2025afsd,
+  title        = {Data-Driven Modeling for Additive Friction Stir Deposition},
+  author       = {Ma, Mason H.},
+  year         = {2025},
+  month        = {March},
+  venue        = {Manufacturing Letters},
+  location     = {Chicago, IL},
+  type         = {Invited Talk},
+  abstract     = {This talk presents machine-learning-based modeling for AFSD processes.},
+}
+
+@talk{ma2024ml,
+  title        = {Machine Learning for Smart Manufacturing Systems},
+  author       = {Ma, Mason H.},
+  year         = {2024},
+  venue        = {INFORMS Annual Meeting},
+  location     = {Seattle, WA},
+  type         = {Conference Talk},
+}

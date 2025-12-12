@@ -34,6 +34,19 @@
             </tbody>
           </table>
         </div>
+
+        <!-- LOGO COLUMN (ADDED) -->
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+          {% if content.logo %}
+            <img
+              src="{{ '/assets/img/education/' | append: content.logo | relative_url }}"
+              alt="{{ content.institution }} logo"
+              style="max-width: 80px; max-height: 80px;"
+              loading="lazy"
+            >
+          {% endif %}
+        </div>
+
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.studyType }}</a>

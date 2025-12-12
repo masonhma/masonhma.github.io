@@ -45,7 +45,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Education
 
-{% include cv.yml section="Education" %}
+{% include resume/education.liquid %}
 
 
 ## Research Interests

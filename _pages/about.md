@@ -55,7 +55,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <img
           src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
           alt="{{ edu.institution }} logo"
-          style="max-width: 90px;"
+          style="max-width: 70px;"
         >
       {% endif %}
     </div>

@@ -13,7 +13,7 @@
   contents:
     - title: PhD, Industrial Engineering
       institution: University of Tennessee, Knoxville
-      year: 2020 - 2026
+      year: 2026
       description:
         - Advisors: Tony Shi, Tony Schmitz 
         - Dissertation title: An Automated Algorithm Framework of Dynamical Systems Discovery, Bifurcation and Stability Analysis to Advance Machine Tool Chatter Theory and Applications
@@ -21,19 +21,19 @@
       
     - title: MS, Industrial Engineering
       institution: University of Wisconsin-Madison
-      year: 2018 - 2019
+      year: 2019
       description:
         - Visiting scholoar, 2016
       logo: assets/img/logos/UW_madison_logo.png
       
     - title: MS, Management Science and Engineering
       institution: Peking University
-      year: 2014 - 2017
+      year: 2017
       logo: assets/img/logos/pku_logo.png
       
     - title: BS, Automations Science and Engineering
       institution: Tsinghua University
-      year: 2010 - 2014
+      year: 2014
       logo: assets/img/logos/thu.png
 
 - title: Experience

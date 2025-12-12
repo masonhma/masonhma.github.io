@@ -11,37 +11,29 @@
 - title: Education
   type: time_table
   contents:
-    - institution: University of Tennessee, Knoxville
-      area: Industrial Engineering
-      degree: PhD
-      startDate: 2020
-      endDate: present
+    - title: PhD, Industrial Engineering
+      institution: University of Tennessee, Knoxville
+      year: 2020 - present
       description:
         - Advisors: Tony Shi, Tony Schmitz 
         - Dissertation title: An Automated Algorithm Framework of Dynamical Systems Discovery, Bifurcation and Stability Analysis to Advance Machine Tool Chatter Theory and Applications
       logo: assets/img/logos/utk.jpg
       
-    - institution: University of Wisconsin-Madison
-      area: Industrial Engineering
-      degree: MS
-      startDate: 2018
-      endDate: 2019
+    - title: MS, Industrial Engineering
+      institution: University of Wisconsin-Madison
+      year: 2018 - 2019
       description:
         - Visiting scholoar, 2016
       logo: assets/img/logos/UW_madison_logo.png
       
-    - institution: Peking University
-      area: Management Science and Engineering
-      degree: MS
-      startDate: 2014
-      endDate: 2017
+    - title: MS, Management Science and Engineering
+      institution: Peking University
+      year: 2014 - 2017
       logo: assets/img/logos/pku_logo.png
       
-    - institution: Tsinghua University
-      area: Automations Science and Engineering
-      degree: BS
-      startDate: 2010
-      endDate: 2014
+    - title: BS, Automations Science and Engineering
+      institution: Tsinghua University
+      year: 2010 - 2014
       logo: assets/img/logos/thu.png
 
 - title: Experience

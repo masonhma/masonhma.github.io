@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.utidealab.com/'>MINDS Lab</a>, <a href='https://www.utk.edu/'>University of Tennessee, Knoxville</a>
 
 profile:
   align: right

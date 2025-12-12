@@ -11,22 +11,21 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Industrial Engineering
+      institution: University of Tennessee, Knoxville
+      year: 2020 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Advisors: Tony Shi, Tony Schmitz 
+        - Dissertation title: An Automated Algorithm Framework of Dynamical Systems Discovery, Bifurcation and Stability Analysis to Advance Machine Tool Chatter Theory and Applications
+    - title: MS, Industrial Engineering
+      institution: University of Wisconsin-Madison
+      year: 2018 - 2019
+    - title: MS, Management Science and Engineering
+      institution: Peking University
+      year: 2014 - 2017
+    - title: BS, Automations Science and Engineering
+      institution: Tsinghua University
+      year: 2010 - 2014
 
 - title: Experience
   type: time_table

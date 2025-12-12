@@ -44,21 +44,41 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Education
 
-{% assign education = site.data.resume.education %}
+<div class="education-list">
+{% assign education = site.data.resume.education | sort: "startDate" | reverse %}
+{% for edu in education %}
+  <div class="row mb-4 align-items-center">
 
-<ul class="list-unstyled">
-  {% for edu in education %}
-    <li style="margin-bottom: 1rem;">
-      <strong>{{ edu.studyType }}</strong>,
-      {{ edu.institution }}
-      <br>
-      <em>{{ edu.startDate | slice: 0, 4 }} – {{ edu.endDate | slice: 0, 4 }}</em>
-      {% if edu.area %}
-        <br>{{ edu.area }}
+    <!-- Logo column -->
+    <div class="col-3 col-md-2 text-center">
+      {% if edu.logo %}
+        <img
+          src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
+          alt="{{ edu.institution }} logo"
+          style="max-width: 90px;"
+        >
       {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+    </div>
+
+    <!-- Text column -->
+    <div class="col-9 col-md-10">
+      <h4 class="mb-1">{{ edu.institution }}</h4>
+
+      <p class="mb-1">
+        {{ edu.studyType }}, {{ edu.area }},
+        {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
+      </p>
+
+      {% if edu.extra %}
+        {% for line in edu.extra %}
+          <p class="mb-0">{{ line }}</p>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+  </div>
+{% endfor %}
+</div>
 
 
 

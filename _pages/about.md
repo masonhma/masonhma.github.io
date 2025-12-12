@@ -6,7 +6,7 @@ subtitle: <a href='https://www.utidealab.com/'>MINDS Lab</a>, <a href='https://w
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>

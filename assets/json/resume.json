@@ -54,7 +54,7 @@
       "studyType": "PhD",
       "startDate": "2020",
       "endDate": "2026",
-      "logo": "utk.jpg"
+      "logo": "utk_1.png"
     },
     {
       "institution": "University of Wisconsin-Madison",
@@ -64,7 +64,7 @@
       "studyType": "MS",
       "startDate": "2018",
       "endDate": "2019",
-      "logo": "UW_madison_logo.png"
+      "logo": "UW_madison_logo_1.png"
     },
     {
       "institution": "Peking University",
@@ -74,7 +74,7 @@
       "studyType": "MS",
       "startDate": "2014",
       "endDate": "2017",
-      "logo": "pku_logo.png"
+      "logo": "pku_logo_1.png"
     },
     {
       "institution": "Tsinghua University",
@@ -84,7 +84,7 @@
       "studyType": "BS",
       "startDate": "2010",
       "endDate": "2014",
-      "logo": "thu.png"
+      "logo": "thu_1.png"
     }
   ],
   "awards": [

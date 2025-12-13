@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
+title: Oak Ridge National Labratory Project
+description: support research on reduced order modeling for reheating furnace using hydrogen
+img: assets/img/projects_imgs/ornl.png
+importance: 25
 category: work
 giscus_comments: true
 ---

@@ -14,7 +14,7 @@ nav_order: 3
 {% include bib_search.liquid %}
 
 
-<h2 style="text-align:center; color:#d63384;">Refereed journal papers</h2>
+<h2 style="text-align:center; color:#d63384;">refereed journal papers</h2>
 {% bibliography 
   --file papers
   --template bib 
@@ -22,7 +22,7 @@ nav_order: 3
 %}
 
 
-<h2 style="text-align:center; color:#d63384;">Under review</h2>
+<h2 style="text-align:center; color:#d63384;">under review</h2>
 {% bibliography 
   --file papers
   --template bib 
@@ -30,7 +30,7 @@ nav_order: 3
 %}
 
 
-<h2 style="text-align:center; color:#d63384;">Working papers</h2>
+<h2 style="text-align:center; color:#d63384;">working papers</h2>
 {% bibliography 
   --file papers
   --template bib 

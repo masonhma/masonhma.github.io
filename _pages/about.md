@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-nav: true
-nav_order: 1
 subtitle: <a href='https://www.utidealab.com/'>MINDS Lab</a>, <a href='https://www.utk.edu/'>University of Tennessee, Knoxville</a>
 
 profile:

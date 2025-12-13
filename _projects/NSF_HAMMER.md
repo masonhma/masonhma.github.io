@@ -2,7 +2,7 @@
 layout: page
 title: NSF ERC-HAMMER
 description: support WAAM and WAAM + forging research
-img: assets/img/projects_imgs/NSF_Hammer.png
+img: assets/img/projects_imgs/NSF_Hammer1.png
 importance: 1
 category: work
 related_publications: true

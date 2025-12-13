@@ -6,12 +6,9 @@ nav: true
 nav_order: 4
 ---
 
-## Invited Talks
-{% bibliography --file talks --query @talk[type=Invited Talk] %}
-
-## Conference Talks
+<h2 style="text-align:center; color:#d63384;">Conference presentations</h2>
 {% bibliography --file talks --query @talk[type=Conference Talk] %}
 
-## Posters
+<h2 style="text-align:center; color:#d63384;">Posters</h2>
 {% bibliography --file talks --query @talk[type=Poster] %}
 

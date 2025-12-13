@@ -32,7 +32,9 @@
       "startDate": "2020",
       "endDate": "2026",
       "score": "10",
-      "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"]
+      "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"],
+      "logo": "utk_1.png"
+
     },
     {
       "institution": "University of Wisconsin-Madison",
@@ -42,7 +44,8 @@
       "studyType": "MS",
       "startDate": "2018",
       "endDate": "2019",
-      "score": "10"
+      "score": "10",
+      "logo": "UW_madison_logo_1.png"
     },
     {
       "institution": "Peking University",
@@ -52,7 +55,8 @@
       "studyType": "MS",
       "startDate": "2017",
       "endDate": "2014",
-      "score": "10"
+      "score": "10",
+      "logo": "pku_logo_1.png"
     },
     {
       "institution": "Tsing University",
@@ -62,7 +66,8 @@
       "studyType": "BS",
       "startDate": "2014",
       "endDate": "2010",
-      "score": "10"
+      "score": "10",
+      "logo": "thu_1.png"
     }
   ],
   

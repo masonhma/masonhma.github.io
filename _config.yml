@@ -1,6 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+show_copyright: false
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Mason
@@ -641,5 +642,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-show_copyright: false

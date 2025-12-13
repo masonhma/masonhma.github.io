@@ -24,16 +24,46 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Tennessee, Knoxville",
+      "location": "Knoxville, TN",
+      "url": "https://www.utk.edu/",
+      "area": "Industrial Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2020",
+      "endDate": "2026",
       "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
+      "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"]
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "location": "Madison, WI",
+      "url": "https://www.wisc.edu/",
+      "area": "Industrial Engineering",
+      "studyType": "MS",
+      "startDate": "2018",
+      "endDate": "2019",
+      "score": "10"
+    },
+    {
+      "institution": "Peking University",
+      "location": "Beijing, China",
+      "url": "https://www.pku.edu.cn/",
+      "area": "Management Science and Engineering",
+      "studyType": "MS",
+      "startDate": "2017",
+      "endDate": "2014",
+      "score": "10"
+  },
+  {
+      "institution": "Tsing University",
+      "location": "Beijing, China",
+      "url": "https://www.tsinghua.edu.cn/",
+      "area": "Automations Science and Engineering",
+      "studyType": "BS",
+      "startDate": "2014",
+      "endDate": "2010",
+      "score": "10"
+  },
   ],
   
   "publications": [

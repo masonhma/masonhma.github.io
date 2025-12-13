@@ -18,7 +18,7 @@ nav_order: 3
 {% bibliography 
   --file papers
   --template bib 
-  --query @article[type=Journal]
+  --query @article[group=Journal]
 %}
 
 
@@ -26,7 +26,7 @@ nav_order: 3
 {% bibliography 
   --file papers
   --template bib 
-  --query @article[type=Review]
+  --query @article[group=Review]
 %}
 
 
@@ -34,7 +34,7 @@ nav_order: 3
 {% bibliography 
   --file papers
   --template bib 
-  --query @article[type=Working]
+  --query @article[group=Working]
 %}
 
 

@@ -53,8 +53,8 @@
       "startDate": "2017",
       "endDate": "2014",
       "score": "10"
-  },
-  {
+    },
+    {
       "institution": "Tsing University",
       "location": "Beijing, China",
       "url": "https://www.tsinghua.edu.cn/",
@@ -63,7 +63,7 @@
       "startDate": "2014",
       "endDate": "2010",
       "score": "10"
-  },
+    }
   ],
   
   "publications": [

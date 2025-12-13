@@ -13,8 +13,34 @@ nav_order: 3
 
 {% include bib_search.liquid %}
 
-<div class="publications">
 
-{% bibliography %}
+<h2 style="text-align:center; color:#d63384;">Refereed journal papers</h2>
+{% bibliography 
+  --file papers
+  --template bib 
+  --query @talk[type=Journal]
+%}
 
-</div>
+
+<h2 style="text-align:center; color:#d63384;">Under review</h2>
+{% bibliography 
+  --file papers
+  --template bib 
+  --query @talk[type=Review]
+%}
+
+
+<h2 style="text-align:center; color:#d63384;">Working papers</h2>
+{% bibliography 
+  --file papers
+  --template bib 
+  --query @talk[type=Working]
+%}
+
+
+<h2 style="text-align:center; color:#d63384;">Refereed conference proceedings</h2>
+{% bibliography 
+  --file papers
+  --template bib 
+  --query @talk[type=Conference]
+%}

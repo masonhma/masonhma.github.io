@@ -1,0 +1,55 @@
+<div class="row align-items-center mb-4">
+
+  <!-- LEFT: thumbnail -->
+  <div class="col-md-3 text-center">
+    {% if entry.preview %}
+      <img src="{{ entry.preview | relative_url }}"
+           class="img-fluid rounded"
+           style="max-height:120px;"
+           alt="presentation thumbnail">
+    {% endif %}
+  </div>
+
+  <!-- RIGHT: content -->
+  <div class="col-md-9">
+
+    <!-- Date -->
+    <div class="text-muted small mb-1">
+      {{ entry.month }} {{ entry.year }}
+    </div>
+
+    <!-- Title -->
+    <h5 class="font-weight-bold mb-1">
+      {{ entry.title }}
+    </h5>
+
+    <!-- Author -->
+    {% if entry.author %}
+      <div class="small mb-1">
+        {{ entry.author | join: ", " }}
+      </div>
+    {% endif %}
+
+    <!-- Venue -->
+    {% if entry.venue %}
+      <div class="font-italic">
+        {{ entry.venue }}
+      </div>
+    {% endif %}
+
+    <!-- Location -->
+    {% if entry.location %}
+      <div class="text-muted">
+        {{ entry.location }}
+      </div>
+    {% endif %}
+
+    <!-- Abstract (optional, collapsible-ready) -->
+    {% if entry.abstract %}
+      <p class="mt-2 small">
+        {{ entry.abstract }}
+      </p>
+    {% endif %}
+
+  </div>
+</div>

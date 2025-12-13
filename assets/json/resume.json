@@ -45,7 +45,7 @@
       "startDate": "2018",
       "endDate": "2019",
       "score": "10",
-      "logo": "UW_madison_logo_1.png"
+      "logo": "UW_madison_logo_2.png"
     },
     {
       "institution": "Peking University",
@@ -64,8 +64,8 @@
       "url": "https://www.tsinghua.edu.cn/",
       "area": "Automations Science and Engineering",
       "studyType": "BS",
-      "startDate": "2014",
-      "endDate": "2010",
+      "startDate": "2010",
+      "endDate": "2014",
       "score": "10",
       "logo": "thu_1.png"
     }

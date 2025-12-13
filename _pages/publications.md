@@ -18,7 +18,7 @@ nav_order: 3
 {% bibliography 
   --file papers
   --template bib 
-  --query @talk[type=Journal]
+  --query @article[type=Journal]
 %}
 
 
@@ -26,7 +26,7 @@ nav_order: 3
 {% bibliography 
   --file papers
   --template bib 
-  --query @talk[type=Review]
+  --query @article[type=Review]
 %}
 
 
@@ -34,7 +34,7 @@ nav_order: 3
 {% bibliography 
   --file papers
   --template bib 
-  --query @talk[type=Working]
+  --query @article[type=Working]
 %}
 
 
@@ -42,5 +42,5 @@ nav_order: 3
 {% bibliography 
   --file papers
   --template bib 
-  --query @talk[type=Conference]
+  --query @inproceedings
 %}

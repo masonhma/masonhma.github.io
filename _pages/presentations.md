@@ -13,7 +13,7 @@ nav_order: 4
   --query @talk[type=Conference]
 %}
 
-<h2 style="text-align:center; color:#d63384;">Project report</h2>
+<h2 style="text-align:center; color:#d63384;">Project report presentations</h2>
 {% bibliography 
   --file talks
   --template bib-talk 

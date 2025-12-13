@@ -14,21 +14,14 @@
   <div class="col-md-9">
 
     <!-- Date -->
-    <div class="text-muted small mb-1">
-      {{ entry.month }} {{ entry.year }}
+    <div class="title">
+      {{ entry.month | capitalize  }} {{ entry.year }}
     </div>
 
     <!-- Title -->
     <h5 class="font-weight-bold mb-1">
       {{ entry.title }}
     </h5>
-
-    <!-- Author -->
-    {% if entry.author %}
-      <div class="small mb-1">
-        {{ entry.author | join: ", " }}
-      </div>
-    {% endif %}
 
     <!-- Venue -->
     {% if entry.venue %}

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
+title: AI Tennessee Seed Project
+description: support physics-based machine learning and AI research
+img: assets/img/projects_imgs/AI_TEnn.png
+importance: 4
 category: work
 related_publications: true
 ---

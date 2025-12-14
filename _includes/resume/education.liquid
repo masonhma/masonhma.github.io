@@ -43,13 +43,6 @@
             </h6>
           {% endif %}
 
-          <!-- University -->
-          <h6>
-            <a href="{{ content.url }}" target="_blank">
-              {{ content.institution }}
-            </a>
-          </h6>
-
           <!-- Dissertation -->
           {% if content.dissertation %}
             <h6 class="font-italic">
@@ -63,6 +56,13 @@
               <li><strong>Advisor:</strong> {{ content.advisor }}</li>
             </ul>
           {% endif %}
+
+          <!-- University -->
+          <h6>
+            <a href="{{ content.url }}" target="_blank">
+              {{ content.institution }}
+            </a>
+          </h6>
 
         </div>
       </div>

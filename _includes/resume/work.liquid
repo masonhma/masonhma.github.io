@@ -4,7 +4,7 @@
     <li class="list-group-item">
       <div class="row">
 
-        <!-- Left column: date + logo -->
+        <!-- Left column: date + location + logo -->
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
           {% if content.startDate %}
             {% assign startDate = content.startDate %}
@@ -16,6 +16,7 @@
 
           <table class="table-cv">
             <tbody>
+
               <!-- Date badge -->
               <tr>
                 <td>
@@ -28,25 +29,39 @@
                 </td>
               </tr>
 
+              <!-- Location -->
+              {% if content.location %}
+                <tr>
+                  <td class="pt-2">
+                    <p class="location mb-1" style="font-size: 0.85rem;">
+                      <i class="fa-solid fa-location-dot mr-1"></i>
+                      {{ content.location }}
+                    </p>
+                  </td>
+                </tr>
+              {% endif %}
+
               <!-- Logo -->
               {% if content.logo %}
                 <tr>
-                  <td class="pt-3">
+                  <td class="pt-2">
                     <img
                       src="{{ content.logo | prepend: '/assets/img/education/' | relative_url }}"
                       alt="{{ content.name }} logo"
-                      style="max-width: 80px; max-height: 80px;"
                       class="img-fluid"
+                      style="max-width: 60px; max-height: 60px;"
                     >
                   </td>
                 </tr>
               {% endif %}
+
             </tbody>
           </table>
         </div>
 
         <!-- Right column: content -->
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+
           <!-- Position -->
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             {% if content.url %}
@@ -83,8 +98,8 @@
               {% endfor %}
             </ul>
           {% endif %}
-        </div>
 
+        </div>
       </div>
     </li>
   {% endfor %}

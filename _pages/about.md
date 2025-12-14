@@ -45,52 +45,6 @@ I am a Ph.D. candidate at the Department of Industrial and Systems Engineering o
 Before starting my Ph.D. journey, I received my BS degree in Automation Science and Engineering from Tsinghua University in 2014. I also received a MS degree in Management Science and Engineering from Peking University in 2017, and a MS degree in Industrial Engineering from The University of Wisconsin-Madison in 2019.
 
 
-## education
-
-<div class="education-list">
-{% assign education = site.data.resume.education | sort: "startDate" | reverse %}
-{% for edu in education %}
-  <div class="row mb-4 align-items-center">
-    <!-- Logo column -->
-    <div class="col-3 col-md-2 d-flex justify-content-center align-items-center">
-    {% if edu.logo %}
-      <div class="edu-logo">
-        <img
-          src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
-          alt="{{ edu.institution }} logo"
-          style="
-                max-width: 70px;
-                max-height: 70px;
-                object-fit: contain;
-              "
-        >
-      </div>
-    {% endif %}
-    </div>
-
-
-    <!-- Text column -->
-    <div class="col-9 col-md-10">
-      <h4 class="mb-1">{{ edu.institution }}</h4>
-
-      <p class="mb-1">
-        {{ edu.studyType }}, {{ edu.area }},
-        {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
-      </p>
-
-      {% if edu.extra %}
-        {% for line in edu.extra %}
-          <p class="mb-0">{{ line }}</p>
-        {% endfor %}
-      {% endif %}
-    </div>
-
-  </div>
-{% endfor %}
-</div>
-
-
-
 
 ## research interests
 

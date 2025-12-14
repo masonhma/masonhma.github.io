@@ -1,153 +1,121 @@
 {
-   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "University of Tennessee, Knoxville",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.utk.edu/",
+      "startDate": "2020",
+      "endDate": "2026",
+      "summary": "Conduct research in machine tool vibration, additive friction stir deposition, wire-arc additive manufacturing, hybrid manufacturing and smart manufacturing.",
+      "highlights": []
+    },
+     {
+      "name": "University of Wisconsin-Madison",
+      "position": "Graduate Teaching Assistant",
+      "url": "https://www.wisc.edu/",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Teach ISyE simulation modeling laboratory as a primary instructor, together with teaching assistant for simulation modeling and manufacturing processes.",
+      "highlights": []
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Peking University",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.pku.edu.cn/",
+      "startDate": "2014",
+      "endDate": "2017",
+      "summary": "Conduct research in Advanced Planning and Scheduling (APS) software solver development, implementation, and integration with ERP, MRP, and MES, etc.",
+      "highlights": []
     }
   ],
+   
   "education": [
     {
       "institution": "University of Tennessee, Knoxville",
       "location": "Knoxville, TN",
       "url": "https://www.utk.edu/",
-      "area": "Industrial Engineering",
-      "studyType": "PhD",
-      "startDate": "2020",
-      "endDate": "2026",
-      "score": "10",
-      "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"],
-      "logo": "utk_2.png"
-
+      "department": "Department of Industrial and Systems Engineering",
+      "logo": "utk_2.png",
+      "courses": [
+        {
+          "course": "IE 465/565: Applied Data Science",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2025",
+          "students_qty": 54
+        },
+        {
+          "course": "IE 537: Analytical Methods for Engineering Managers",
+          "semester": "Fall",
+          "title": "Teaching assistant",
+          "year": "2025",
+          "students_qty": 42
+        },
+        {
+          "course": "IE 516: Statistical Methods in Industrial Engineering",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 542: Design of Experiments for Engineering Managers",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 612: Statistical Learning for Complex Systems",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 444/544: Manufacturing Systems Modeling and Analysis",
+          "title": "Guest lecturer"
+        }
+      ]
     },
     {
       "institution": "University of Wisconsin-Madison",
       "location": "Madison, WI",
       "url": "https://www.wisc.edu/",
-      "area": "Industrial Engineering",
-      "studyType": "MS",
-      "startDate": "2018",
-      "endDate": "2019",
-      "score": "10",
-      "logo": "UW_madison_logo_1.png"
-    },
-    {
-      "institution": "Peking University",
-      "location": "Beijing, China",
-      "url": "https://www.pku.edu.cn/",
-      "area": "Management Science and Engineering",
-      "studyType": "MS",
-      "startDate": "2014",
-      "endDate": "2017",
-      "score": "10",
-      "logo": "pku_logo_1.png"
-    },
-    {
-      "institution": "Tsinghua University",
-      "location": "Beijing, China",
-      "url": "https://www.tsinghua.edu.cn/",
-      "area": "Automation Science and Engineering",
-      "studyType": "BS",
-      "startDate": "2010",
-      "endDate": "2014",
-      "score": "10",
-      "logo": "thu_1.png"
+      "department": "Department of Industrial and Systems Engineering",
+      "logo": "UW_madison_logo_1.png",
+      "courses": [
+        {
+          "course": "IE 321: Simulation Modeling Laboratory",
+          "title": "Instructor",
+          "semester": "Spring",
+          "year": "2019",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2019",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 321: Simulation Modeling Laboratory",
+          "title": "Instructor",
+          "semester": "Fall",
+          "year": "2018",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "title": "Teaching assistant",
+          "semester": "Fall",
+          "year": "2018",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 620: Simulation Modeling and Analysis",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2018",
+          "students_qty": 80
+        }
+      ]
     }
   ],
   
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+   
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",

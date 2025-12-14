@@ -47,20 +47,17 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 {% for edu in education %}
   <div class="row mb-4 align-items-center">
     <!-- Logo column -->
-    <div class="col-3 col-md-2 text-center">
-      {% if edu.logo %}
+    <div class="col-3 col-md-2 d-flex justify-content-center align-items-center">
+    {% if edu.logo %}
+      <div class="edu-logo">
         <img
           src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
           alt="{{ edu.institution }} logo"
-          style="
-            max-width: 70px;
-            max-height: 70px;
-            object-fit: contain;
-          "
         >
-
-      {% endif %}
+      </div>
+    {% endif %}
     </div>
+
 
     <!-- Text column -->
     <div class="col-9 col-md-10">

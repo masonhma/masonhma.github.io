@@ -51,12 +51,10 @@
           </h6>
 
           <!-- Dissertation -->
-          {% if content.dissertation and content.dissertation.size > 0 %}
-            <ul class="mt-2">
-              {% for d in content.dissertation %}
-                <li>{{ d }}</li>
-              {% endfor %}
-            </ul>
+          {% if content.dissertation %}
+            <h6 class="font-italic">
+              {{ content.dissertation }}
+            </h6>
           {% endif %}
 
           <!-- Advisor -->

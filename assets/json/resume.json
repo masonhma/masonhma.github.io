@@ -6,7 +6,7 @@
       "url": "https://www.utk.edu/",
       "startDate": "2020",
       "endDate": "2026",
-      "logo": "utk_1.png"
+      "logo": "utk_1.png",
       "summary": "Conduct research in machine tool vibration, additive friction stir deposition, wire-arc additive manufacturing, hybrid manufacturing and smart manufacturing.",
       "highlights": []
     },
@@ -16,7 +16,7 @@
       "url": "https://www.wisc.edu/",
       "startDate": "2018",
       "endDate": "2019",
-      "logo": "UW_madison_logo_3.png"
+      "logo": "UW_madison_logo_3.png",
       "summary": "Teach ISyE simulation modeling laboratory as a primary instructor, together with teaching assistant for simulation modeling and manufacturing processes.",
       "highlights": []
     },
@@ -26,7 +26,7 @@
       "url": "https://www.pku.edu.cn/",
       "startDate": "2014",
       "endDate": "2017",
-      "logo": "pku_logo_2.png"
+      "logo": "pku_logo_2.png",
       "summary": "Conduct research in production planning and scheduling for shop floor management in oil well equipment assembly and papermaking factories, particularly focusing on the solver development and inplementation of Advanced Planning and Scheduling (APS), and its integration with ERP, MRP, and MES",
       "highlights": []
     }
@@ -81,6 +81,92 @@
     }
   ],
 
+    
+  "teaching": [
+    {
+      "institution": "University of Tennessee, Knoxville",
+      "location": "Knoxville, TN",
+      "url": "https://www.utk.edu/",
+      "department": "Department of Industrial and Systems Engineering",
+      "logo": "utk_2.png",
+      "courses": [
+        {
+          "course": "IE 465/565: Applied Data Science",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2025",
+          "students_qty": 54
+        },
+        {
+          "course": "IE 537: Analytical Methods for Engineering Managers",
+          "semester": "Fall",
+          "title": "Teaching assistant",
+          "year": "2025",
+          "students_qty": 42
+        },
+        {
+          "course": "IE 516: Statistical Methods in Industrial Engineering",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 542: Design of Experiments for Engineering Managers",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 612: Statistical Learning for Complex Systems",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 444/544: Manufacturing Systems Modeling and Analysis",
+          "title": "Guest lecturer"
+        }
+      ]
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "location": "Madison, WI",
+      "url": "https://www.wisc.edu/",
+      "department": "Department of Industrial and Systems Engineering",
+      "logo": "UW_madison_logo_1.png",
+      "courses": [
+        {
+          "course": "IE 321: Simulation Modeling Laboratory",
+          "title": "Instructor",
+          "semester": "Spring",
+          "year": "2019",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2019",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 321: Simulation Modeling Laboratory",
+          "title": "Instructor",
+          "semester": "Fall",
+          "year": "2018",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "title": "Teaching assistant",
+          "semester": "Fall",
+          "year": "2018",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 620: Simulation Modeling and Analysis",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2018",
+          "students_qty": 80
+        }
+      ]
+    }
+  ],
  
   "publications": [
     {

@@ -53,6 +53,11 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
         <img
           src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
           alt="{{ edu.institution }} logo"
+          style="
+                max-width: 70px;
+                max-height: 70px;
+                object-fit: contain;
+              "
         >
       </div>
     {% endif %}

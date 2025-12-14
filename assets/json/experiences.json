@@ -1,13 +1,31 @@
 {
   "professional_experiences": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "University of Tennessee, Knoxville",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.utk.edu/",
+      "startDate": "2020",
+      "endDate": "2026",
+      "summary": "Conduct research in machine tool vibration, additive friction stir deposition, wire-arc additive manufacturing, hybrid manufacturing and smart manufacturing.",
+      "highlights": []
+    },
+     {
+      "name": "University of Wisconsin-Madison",
+      "position": "Graduate Teaching Assistant",
+      "url": "https://www.wisc.edu/",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Teach ISyE simulation modeling laboratory as a primary instructor, together with teaching assistant for simulation modeling and manufacturing processes.",
+      "highlights": []
+    },
+    {
+      "name": "Peking University",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.pku.edu.cn/",
+      "startDate": "2014",
+      "endDate": "2017",
+      "summary": "Conduct research in Advanced Planning and Scheduling (APS) software solver development, implementation, and integration with ERP, MRP, and MES, etc.",
+      "highlights": []
     }
   ],
   
@@ -16,94 +34,106 @@
       "institution": "University of Tennessee, Knoxville",
       "location": "Knoxville, TN",
       "url": "https://www.utk.edu/",
-      "area": "Industrial Engineering",
-      "studyType": "PhD",
-      "startDate": "2020",
-      "endDate": "2026",
-      "score": "10",
-      "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"],
-      "logo": "utk_2.png"
-
+      "department": "Department of Industrial and Systems Engineering",
+      "logo": "utk_2.png",
+      "courses": [
+        {
+          "course": "IE 465/565: Applied Data Science",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2025",
+          "students_qty": 54
+        },
+        {
+          "course": "IE 537: Analytical Methods for Engineering Managers",
+          "semester": "Fall",
+          "title": "Teaching assistant",
+          "year": "2025",
+          "students_qty": 42
+        },
+        {
+          "course": "IE 516: Statistical Methods in Industrial Engineering",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 542: Design of Experiments for Engineering Managers",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 612: Statistical Learning for Complex Systems",
+          "title": "Guest lecturer"
+        },
+        {
+          "course": "IE 444/544: Manufacturing Systems Modeling and Analysis",
+          "title": "Guest lecturer"
+        }
+      ]
     },
     {
       "institution": "University of Wisconsin-Madison",
       "location": "Madison, WI",
       "url": "https://www.wisc.edu/",
-      "area": "Industrial Engineering",
-      "studyType": "MS",
-      "startDate": "2018",
-      "endDate": "2019",
-      "score": "10",
-      "logo": "UW_madison_logo_1.png"
-    },
-    {
-      "institution": "Peking University",
-      "location": "Beijing, China",
-      "url": "https://www.pku.edu.cn/",
-      "area": "Management Science and Engineering",
-      "studyType": "MS",
-      "startDate": "2014",
-      "endDate": "2017",
-      "score": "10",
-      "logo": "pku_logo_1.png"
-    },
-    {
-      "institution": "Tsinghua University",
-      "location": "Beijing, China",
-      "url": "https://www.tsinghua.edu.cn/",
-      "area": "Automation Science and Engineering",
-      "studyType": "BS",
-      "startDate": "2010",
-      "endDate": "2014",
-      "score": "10",
-      "logo": "thu_1.png"
-    }
+      "department": "Department of Industrial and Systems Engineering",
+      "logo": "UW_madison_logo_1.png",
+      "courses": [
+        {
+          "course": "IE 321: Simulation Modeling Laboratory",
+          "title": "Instructor",
+          "semester": "Spring",
+          "year": "2019",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2019",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 321: Simulation Modeling Laboratory",
+          "title": "Instructor",
+          "semester": "Fall",
+          "year": "2018",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "title": "Teaching assistant",
+          "semester": "Fall",
+          "year": "2018",
+          "students_qty": 80
+        },
+        {
+          "course": "IE 620: Simulation Modeling and Analysis",
+          "title": "Teaching assistant",
+          "semester": "Spring",
+          "year": "2018",
+          "students_qty": 80
+        }
+      ]
+     }
   ],
 
-  "reviewers": [
+   "reviewers": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Journals",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Journal of Machine Learning for Modeling and Computing, since 2022",
+        "Energy Systems, since 2023"
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Conferences",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "IEEE Conference on Automation Science and Engineering, since 2022",
+        "IEEE/ASME International Conference on Advanced Intelligent Mechatronics, since 2023"
+      ]
     }
   ],
+ 
   "services": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
@@ -127,34 +157,67 @@
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
+  
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C",
+        "C++",
+        "C#",
+        ".Net",
+        "Java",
+        "Python",
+        "R",
+        "Julia"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Visual Studio",
+        "TensorFlow",
+        "PyTorch",
+        "PyCharm",
+        "Visual Studio",
+        "Abaqus",
+        "COMSOL",
+        "Arena",
+        "AnyLogic",
+        "SQL Server",
+        "MATLAB",
+        "Anaconda",
+        "GitHub",
+        "CPLEX",
+        "Gurobi"
       ]
     }
   ],
- 
-  "membership": [
+
+   "membership": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "society": "Member of Society of Manufacturing Engineers (SME)",
+      "level": "Student member",
+      "icon": ""
+    },
+    {
+      "society": "Member of American Society of Mechanical Engineers (ASME)",
+      "level": "Student member",
+      "icon": ""
+    },
+    {
+      "society": "Member of Institute of Industrial and Systems Engineers (IISE)",
+      "level": "Student member",
+      "icon": ""
+    },
+    {
+      "society": "Member of Institute of Electrical and Electronics Engineers (IEEE)",
+      "level": "Student member",
+      "icon": ""
     }
   ]
 }

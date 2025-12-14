@@ -91,9 +91,9 @@ layout: default
             {% assign section_title = data[0] %}
             {% if data[0] == 'work' %}
               {% assign section_title = 'Professional experiences' %}
-            {% elseif data[0] == 'teaching' %}
+            {% elsif data[0] == 'teaching' %}
               {% assign section_title = 'Teaching experiences' %}
-            {% elseif data[0] == 'reviewers' %}
+            {% elsif data[0] == 'reviewers' %}
               {% assign section_title = 'Invited reviewers' %}
             {% endif %}
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>

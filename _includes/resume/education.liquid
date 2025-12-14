@@ -5,7 +5,7 @@
     <li class="list-group-item">
       <div class="row">
 
-        <!-- LEFT COLUMN: date, location, logo -->
+        <!-- LEFT COLUMN -->
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
           {% if content.startDate %}
             {% assign start = content.startDate %}
@@ -52,7 +52,7 @@
           </table>
         </div>
 
-        <!-- RIGHT COLUMN: degree & details -->
+        <!-- RIGHT COLUMN -->
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
 
           <!-- Degree -->
@@ -60,19 +60,19 @@
             {{ content.studyType }}
           </h6>
 
-          <!-- Institution -->
-          <h6 class="ml-1 ml-md-4">
-            <a href="{{ content.url }}" target="_blank" rel="noopener">
-              {{ content.institution }}
-            </a>
-          </h6>
-
-          <!-- Area -->
+          <!-- Major (ABOVE university) -->
           {% if content.area %}
             <h6 class="ml-1 ml-md-4 font-italic">
               {{ content.area }}
             </h6>
           {% endif %}
+
+          <!-- University -->
+          <h6 class="ml-1 ml-md-4">
+            <a href="{{ content.url }}" target="_blank" rel="noopener">
+              {{ content.institution }}
+            </a>
+          </h6>
 
           <!-- Dissertation -->
           {% if content.dissertation %}
@@ -86,7 +86,7 @@
           <!-- Advisor -->
           {% if content.advisor %}
             <ul class="ml-1 ml-md-4">
-              <li>Advisor: {{ content.advisor }}</li>
+              <li><strong>Advisor:</strong> {{ content.advisor }}</li>
             </ul>
           {% endif %}
 

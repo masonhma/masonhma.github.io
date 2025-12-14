@@ -45,7 +45,8 @@
       "startDate": "2020",
       "endDate": "2026",
       "score": "10",
-      "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"],
+      "dissertation": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"],
+      "advisor": "Drs. Tony Shi and Tony Schmitz",
       "logo": "utk_1.png"
 
     },

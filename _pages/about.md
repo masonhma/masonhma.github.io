@@ -45,7 +45,6 @@ I am a Ph.D. candidate at the Department of Industrial and Systems Engineering o
 Before starting my Ph.D. journey, I received my BS degree in Automation Science and Engineering from Tsinghua University in 2014. I also received a MS degree in Management Science and Engineering from Peking University in 2017, and a MS degree in Industrial Engineering from The University of Wisconsin-Madison in 2019.
 
 
-
 ## research interests
 
 <ul>

@@ -4,6 +4,7 @@
       "name": "University of Tennessee, Knoxville",
       "position": "Graduate Research Assistant",
       "url": "https://www.utk.edu/",
+      "location": "Knoxville, TN",
       "startDate": "2020",
       "endDate": "2026",
       "logo": "utk_1.png",
@@ -14,6 +15,7 @@
       "name": "University of Wisconsin-Madison",
       "position": "Graduate Teaching Assistant",
       "url": "https://www.wisc.edu/",
+      "location": "Madison, WI",
       "startDate": "2018",
       "endDate": "2019",
       "logo": "UW_madison_logo_3.png",
@@ -24,6 +26,7 @@
       "name": "Peking University",
       "position": "Graduate Research Assistant",
       "url": "https://www.pku.edu.cn/",
+      "location": "Beijing, China",
       "startDate": "2014",
       "endDate": "2017",
       "logo": "pku_logo_2.png",
@@ -92,7 +95,7 @@
       "courses": [
         {
           "course": "IE 465/565: Applied Data Science",
-          "title": "Teaching assistant",
+          "title": "Teaching Assistant",
           "semester": "Spring",
           "year": "2025",
           "students_qty": 54
@@ -100,25 +103,25 @@
         {
           "course": "IE 537: Analytical Methods for Engineering Managers",
           "semester": "Fall",
-          "title": "Teaching assistant",
+          "title": "Teaching Assistant",
           "year": "2025",
           "students_qty": 42
         },
         {
           "course": "IE 516: Statistical Methods in Industrial Engineering",
-          "title": "Guest lecturer"
+          "title": "Guest Lecturer"
         },
         {
           "course": "IE 542: Design of Experiments for Engineering Managers",
-          "title": "Guest lecturer"
+          "title": "Guest Lecturer"
         },
         {
           "course": "IE 612: Statistical Learning for Complex Systems",
-          "title": "Guest lecturer"
+          "title": "Guest Lecturer"
         },
         {
           "course": "IE 444/544: Manufacturing Systems Modeling and Analysis",
-          "title": "Guest lecturer"
+          "title": "Guest Lecturer"
         }
       ]
     },

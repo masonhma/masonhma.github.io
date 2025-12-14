@@ -6,6 +6,7 @@
       "url": "https://www.utk.edu/",
       "startDate": "2020",
       "endDate": "2026",
+      "logo": "utk_1.png"
       "summary": "Conduct research in machine tool vibration, additive friction stir deposition, wire-arc additive manufacturing, hybrid manufacturing and smart manufacturing.",
       "highlights": []
     },
@@ -15,6 +16,7 @@
       "url": "https://www.wisc.edu/",
       "startDate": "2018",
       "endDate": "2019",
+      "logo": "UW_madison_logo_3.png"
       "summary": "Teach ISyE simulation modeling laboratory as a primary instructor, together with teaching assistant for simulation modeling and manufacturing processes.",
       "highlights": []
     },
@@ -24,7 +26,8 @@
       "url": "https://www.pku.edu.cn/",
       "startDate": "2014",
       "endDate": "2017",
-      "summary": "Conduct research in Advanced Planning and Scheduling (APS) software solver development, implementation, and integration with ERP, MRP, and MES, etc.",
+      "logo": "pku_logo_2.png"
+      "summary": "Conduct research in production planning and scheduling for shop floor management in oil well equipment assembly and papermaking factories, particularly focusing on the solver development and inplementation of Advanced Planning and Scheduling (APS), and its integration with ERP, MRP, and MES",
       "highlights": []
     }
   ],
@@ -40,7 +43,7 @@
       "endDate": "2026",
       "score": "10",
       "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"],
-      "logo": "utk_2.png"
+      "logo": "utk_1.png"
 
     },
     {
@@ -52,7 +55,7 @@
       "startDate": "2018",
       "endDate": "2019",
       "score": "10",
-      "logo": "UW_madison_logo_1.png"
+      "logo": "UW_madison_logo_3.png"
     },
     {
       "institution": "Peking University",
@@ -63,7 +66,7 @@
       "startDate": "2014",
       "endDate": "2017",
       "score": "10",
-      "logo": "pku_logo_1.png"
+      "logo": "pku_logo_2.png"
     },
     {
       "institution": "Tsinghua University",
@@ -74,7 +77,7 @@
       "startDate": "2010",
       "endDate": "2014",
       "score": "10",
-      "logo": "thu_1.png"
+      "logo": "thu_2.png"
     }
   ],
 

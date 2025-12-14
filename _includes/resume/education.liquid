@@ -51,11 +51,9 @@
           </h6>
 
           <!-- Dissertation -->
-          {% if content.dissertation and content.dissertation.size > 0 %}
-            <ul class="mt-2">
-              {% for d in content.dissertation %}
-                <li>{{ d }}</li>
-              {% endfor %}
+          {% if content.dissertation %}
+            <ul class="font-italic">
+              <li><strong>PhD Dissertation:</strong> {{ content.dissertation }}</li>
             </ul>
           {% endif %}
 

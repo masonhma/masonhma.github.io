@@ -28,8 +28,58 @@
       "highlights": []
     }
   ],
-   
+
   "education": [
+    {
+      "institution": "University of Tennessee, Knoxville",
+      "location": "Knoxville, TN",
+      "url": "https://www.utk.edu/",
+      "area": "Industrial Engineering",
+      "studyType": "PhD",
+      "startDate": "2020",
+      "endDate": "2026",
+      "score": "10",
+      "courses": ["Ph.D. Dissertation: An Automation Framework of Governing Equations Discovery, Bifurcation and Stability Analysis for Dynamical Systems: Theory and Its Applications on Machine Tools"],
+      "logo": "utk_2.png"
+
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "location": "Madison, WI",
+      "url": "https://www.wisc.edu/",
+      "area": "Industrial Engineering",
+      "studyType": "MS",
+      "startDate": "2018",
+      "endDate": "2019",
+      "score": "10",
+      "logo": "UW_madison_logo_1.png"
+    },
+    {
+      "institution": "Peking University",
+      "location": "Beijing, China",
+      "url": "https://www.pku.edu.cn/",
+      "area": "Management Science and Engineering",
+      "studyType": "MS",
+      "startDate": "2014",
+      "endDate": "2017",
+      "score": "10",
+      "logo": "pku_logo_1.png"
+    },
+    {
+      "institution": "Tsinghua University",
+      "location": "Beijing, China",
+      "url": "https://www.tsinghua.edu.cn/",
+      "area": "Automation Science and Engineering",
+      "studyType": "BS",
+      "startDate": "2010",
+      "endDate": "2014",
+      "score": "10",
+      "logo": "thu_1.png"
+    }
+  ],
+
+   
+  "teaching": [
     {
       "institution": "University of Tennessee, Knoxville",
       "location": "Knoxville, TN",

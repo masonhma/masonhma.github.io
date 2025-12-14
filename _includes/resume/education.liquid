@@ -43,12 +43,22 @@
             </h6>
           {% endif %}
 
+          <!-- University -->
+          <h6>
+            <a href="{{ content.url }}" target="_blank">
+              {{ content.institution }}
+            </a>
+          </h6>
+
           <!-- Dissertation -->
-          {% if content.dissertation %}
-            <h6 class="font-italic">
-              {{ content.dissertation }}
-            </h6>
+          {% if content.dissertation and content.dissertation.size > 0 %}
+            <ul class="mt-2">
+              {% for d in content.dissertation %}
+                <li>{{ d }}</li>
+              {% endfor %}
+            </ul>
           {% endif %}
+
 
           <!-- Advisor -->
           {% if content.advisor %}
@@ -57,12 +67,6 @@
             </ul>
           {% endif %}
 
-          <!-- University -->
-          <h6>
-            <a href="{{ content.url }}" target="_blank">
-              {{ content.institution }}
-            </a>
-          </h6>
 
         </div>
       </div>

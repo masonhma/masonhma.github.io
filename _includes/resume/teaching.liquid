@@ -1,1 +1,104 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign teaching = data[1] %}
+
+  {% for inst in teaching %}
+    <li class="list-group-item">
+      <div class="row">
+
+        <!-- LEFT COLUMN: DATE + LOCATION + LOGO -->
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+
+          {% comment %} Compute overall year range from courses {% endcomment %}
+          {% assign years = "" | split: "" %}
+          {% for c in inst.courses %}
+            {% if c.year %}
+              {% assign years = years | push: c.year %}
+            {% endif %}
+          {% endfor %}
+          {% assign years = years | sort %}
+          {% assign startYear = years.first %}
+          {% assign endYear = years.last %}
+
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle mb-1"
+                style="min-width: 75px;">
+            {{ startYear }}{% if endYear != startYear %} - {{ endYear }}{% endif %}
+          </span>
+
+          {% if inst.location %}
+            <p class="location mt-1">
+              <i class="fa-solid fa-location-dot iconlocation"></i>
+              {{ inst.location }}
+            </p>
+          {% endif %}
+
+          {% if inst.logo %}
+            <img
+              src="{{ inst.logo | prepend: '/assets/img/education/' | relative_url }}"
+              alt="{{ inst.institution }} logo"
+              class="img-fluid mt-2"
+              style="max-width: 60px; max-height: 60px;"
+            >
+          {% endif %}
+        </div>
+
+        <!-- RIGHT COLUMN: CONTENT -->
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+
+          <!-- Institution -->
+          <h5 class="font-weight-bold ml-1 ml-md-4">
+            <a href="{{ inst.url }}" target="_blank" rel="noopener">
+              {{ inst.institution }}
+            </a>
+          </h5>
+
+          <!-- Department -->
+          {% if inst.department %}
+            <p class="ml-1 ml-md-4 mb-2">
+              {{ inst.department }}
+            </p>
+          {% endif %}
+
+          {% comment %} ---------- TEACHING ASSISTANT / INSTRUCTOR ---------- {% endcomment %}
+          {% assign ta_courses = inst.courses | where_exp: "c", "c.title contains 'Assistant' or c.title contains 'Instructor'" %}
+          {% if ta_courses.size > 0 %}
+            <h6 class="ml-1 ml-md-4 font-weight-bold text-primary mt-3">
+              {{ ta_courses.first.title }}
+            </h6>
+
+            <ul class="ml-1 ml-md-4">
+              {% for c in ta_courses %}
+                <li>
+                  <strong>{{ c.course }}</strong>
+                  {% if c.semester and c.year %}
+                    <ul>
+                      <li>{{ c.semester }} {{ c.year }}</li>
+                      {% if c.students_qty %}
+                        <li>Student quantity: {{ c.students_qty }}</li>
+                      {% endif %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% comment %} ---------- GUEST LECTURE ---------- {% endcomment %}
+          {% assign guest_courses = inst.courses | where: "title", "Guest Lecturer" %}
+          {% if guest_courses.size > 0 %}
+            <h6 class="ml-1 ml-md-4 font-weight-bold text-primary mt-4">
+              Guest Lecture
+            </h6>
+
+            <ul class="ml-1 ml-md-4">
+              {% for c in guest_courses %}
+                <li>{{ c.course }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
 

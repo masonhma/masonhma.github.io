@@ -2,11 +2,10 @@
 layout: about
 title: about
 permalink: /
-<div class="subtitle">
+subtitle: |
   <a href="https://www.utidealab.com/" target="_blank">Manufacturing Intelligent Dynamics (MINDS) Lab</a><br>
   <a href="https://www.mtrc.utk.edu/" target="_blank">Machine Tool Research Center</a><br>
   <a href="https://www.utk.edu/" target="_blank">University of Tennessee</a>
-</div>
 
 profile:
   align: right

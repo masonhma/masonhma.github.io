@@ -23,19 +23,3 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-
-/* ===== Normalize education logos ===== */
-.education-list .col-3,
-.education-list .col-md-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.education-list img {
-  max-width: 70px;
-  max-height: 70px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}

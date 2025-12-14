@@ -2,7 +2,7 @@
 layout: cv
 permalink: /experiences/
 title: Experiences
-nav: true
+nav: false
 nav_order: 5
 cv_data: experiences
 cv_pdf:

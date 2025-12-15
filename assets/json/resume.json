@@ -201,68 +201,30 @@
       "url": "https://hammer.osu.edu/"
     }
   ],
-    "skills": [
-    {
-      "name": "Programming",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "C",
-        "C++",
-        "C#",
-        ".Net",
-        "Java",
-        "Python",
-        "R",
-        "Julia"
-      ]
-    },
-    {
-      "name": "Software",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Visual Studio",
-        "TensorFlow",
-        "PyTorch",
-        "PyCharm",
-        "Visual Studio",
-        "Abaqus",
-        "COMSOL",
-        "Arena",
-        "AnyLogic",
-        "SQL Server",
-        "MATLAB",
-        "Anaconda",
-        "GitHub",
-        "CPLEX",
-        "Gurobi"
-      ]
-    }
-  ],
-
-   "membership": [
+  
+   "memberships": [
     {
       "society": "Member of Society of Manufacturing Engineers (SME)",
       "level": "Student member",
-      "icon": ""
+      "logo": "sme.png"
     },
     {
       "society": "Member of American Society of Mechanical Engineers (ASME)",
       "level": "Student member",
-      "icon": ""
+      "logo": "asme.png"
     },
     {
       "society": "Member of Institute of Industrial and Systems Engineers (IISE)",
       "level": "Student member",
-      "icon": ""
+      "logo": "iise.png"
     },
     {
       "society": "Member of Institute of Electrical and Electronics Engineers (IEEE)",
       "level": "Student member",
-      "icon": ""
+      "logo": "ieee.png"
     }
   ],
+  
 
 
   "awards": [

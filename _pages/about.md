@@ -6,7 +6,7 @@ subtitle: |
   Graduate Research Assistant, Ph.D. Candidate<br>
   <a href="https://www.utidealab.com/" target="_blank">Manufacturing Intelligent Dynamics (MINDS) Lab</a><br>
   <a href="https://mtrc.utk.edu/" target="_blank">Machine Tool Research Center</a><br>
-  <a href="https://www.utk.edu/" target="_blank">University of Tennessee</a>
+  <a href="https://www.utk.edu/" target="_blank">University of Tennessee, Knoxville</a>
 
 profile:
   align: right

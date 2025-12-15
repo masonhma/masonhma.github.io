@@ -68,12 +68,12 @@
             <ul class="ml-1 ml-md-4">
               {% for c in ta_courses %}
                 <li>
-                  <strong>{{ c.course }}</strong>
+                  {{ c.course }}
                   {% if c.semester and c.year %}
                     <ul>
                       <li>{{ c.semester }} {{ c.year }}</li>
                       {% if c.students_qty %}
-                        <li>Student quantity: {{ c.students_qty }}</li>
+                        <li>Number of students: {{ c.students_qty }}</li>
                       {% endif %}
                     </ul>
                   {% endif %}

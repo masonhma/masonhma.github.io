@@ -205,22 +205,22 @@
    "memberships": [
     {
       "society": "Member of Society of Manufacturing Engineers (SME)",
-      "level": "Student member",
+      "level": "Member",
       "logo": "sme.png"
     },
     {
       "society": "Member of American Society of Mechanical Engineers (ASME)",
-      "level": "Student member",
+      "level": "Member",
       "logo": "asme.png"
     },
     {
       "society": "Member of Institute of Industrial and Systems Engineers (IISE)",
-      "level": "Student member",
+      "level": "Member",
       "logo": "iise.png"
     },
     {
       "society": "Member of Institute of Electrical and Electronics Engineers (IEEE)",
-      "level": "Student member",
+      "level": "Member",
       "logo": "ieee.png"
     }
   ],

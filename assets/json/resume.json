@@ -110,19 +110,23 @@
         },
         {
           "course": "IE 516: Statistical Methods in Industrial Engineering",
-          "title": "Guest Lecturer"
+          "title": "Guest Lecturer",
+          "year": "2020"
         },
         {
           "course": "IE 542: Design of Experiments for Engineering Managers",
-          "title": "Guest Lecturer"
+          "title": "Guest Lecturer",
+          "year": "2021"
         },
         {
           "course": "IE 612: Statistical Learning for Complex Systems",
-          "title": "Guest Lecturer"
+          "title": "Guest Lecturer",
+          "year": "2022"
         },
         {
           "course": "IE 444/544: Manufacturing Systems Modeling and Analysis",
-          "title": "Guest Lecturer"
+          "title": "Guest Lecturer",
+          "year": "2023"
         }
       ]
     },
@@ -196,8 +200,8 @@
       "name": "Convergence Research Pillar, NSF HAMMER ERC Student Leadership Council (SLC)",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
       "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "June, 2014",
-      "endDate": "May, 2025",
+      "startDate": "2014",
+      "endDate": "2025",
       "url": "https://hammer.osu.edu/"
     }
   ],

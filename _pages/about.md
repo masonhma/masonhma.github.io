@@ -51,53 +51,57 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 
 
 ## education
-<div class="education-list">
 
-{% assign education = site.data.resume.education | sort: "startDate" | reverse %}
-{% for edu in education %}
+<div class="row">
+  <!-- LEFT CONTENT COLUMN (same width as text above) -->
+  <div class="col-12 col-md-8">
 
-  <div class="education-item">
+    <div class="education-list">
+    {% assign education = site.data.resume.education | sort: "startDate" | reverse %}
+    {% for edu in education %}
+      <div class="row mb-4 align-items-center">
 
-    <!-- Logo -->
-    <div class="education-logo">
-      {% if edu.logo %}
-        <img
-          src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
-          alt="{{ edu.institution }} logo"
-        >
-      {% endif %}
-    </div>
+        <!-- Logo column -->
+        <div class="col-3 col-md-2 d-flex justify-content-center align-items-center">
+          {% if edu.logo %}
+            <img
+              src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
+              alt="{{ edu.institution }} logo"
+              style="max-width: 60px; max-height: 60px; object-fit: contain;"
+            >
+          {% endif %}
+        </div>
 
-    <!-- Text -->
-    <div class="education-text">
+        <!-- Text column -->
+        <div class="col-9 col-md-10">
+          <h4 class="mb-1" style="font-size: 1.2rem;">
+            {% if edu.url %}
+              <a href="{{ edu.url }}" target="_blank" rel="noopener">
+                {{ edu.institution }}
+              </a>
+            {% else %}
+              {{ edu.institution }}
+            {% endif %}
+          </h4>
 
-      <!-- Institution (linked, smaller font) -->
-      <div class="education-institution">
-        {% if edu.url %}
-          <a href="{{ edu.url }}" target="_blank" rel="noopener">
-            {{ edu.institution }}
-          </a>
-        {% else %}
-          {{ edu.institution }}
-        {% endif %}
+          <!-- Study type (row 1) -->
+          <div class="education-degree">
+            {{ edu.studyType }}, {{ edu.area }}
+          </div>
+    
+          <!-- Dates (row 2) -->
+          <div class="education-dates">
+            {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
+          </div>
+        </div>
+
       </div>
-
-      <!-- Study type (row 1) -->
-      <div class="education-degree">
-        {{ edu.studyType }}, {{ edu.area }}
-      </div>
-
-      <!-- Dates (row 2) -->
-      <div class="education-dates">
-        {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
-      </div>
-
+    {% endfor %}
     </div>
 
   </div>
-
-{% endfor %}
 </div>
+
 
 
 

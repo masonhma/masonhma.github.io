@@ -51,52 +51,51 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 
 
 ## education
-<div class="education-list">
-{% assign education = site.data.resume.education | sort: "startDate" | reverse %}
-{% for edu in education %}
-  <div class="row mb-4 align-items-center">
-    <!-- Logo column -->
-    <div class="col-3 col-md-2 d-flex justify-content-center align-items-center">
-    {% if edu.logo %}
-      <div class="edu-logo">
-        <img
-          src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
-          alt="{{ edu.institution }} logo"
-          style="
-                max-width: 60px;
-                max-height: 60px;
-                object-fit: contain;
-              "
-        >
+<div class="row">
+  <!-- LEFT CONTENT COLUMN (same width as text above) -->
+  <div class="col-12 col-md-8">
+
+    <div class="education-list">
+    {% assign education = site.data.resume.education | sort: "startDate" | reverse %}
+    {% for edu in education %}
+      <div class="row mb-4 align-items-center">
+
+        <!-- Logo column -->
+        <div class="col-3 col-md-2 d-flex justify-content-center align-items-center">
+          {% if edu.logo %}
+            <img
+              src="{{ '/assets/img/education/' | append: edu.logo | relative_url }}"
+              alt="{{ edu.institution }} logo"
+              style="max-width: 60px; max-height: 60px; object-fit: contain;"
+            >
+          {% endif %}
+        </div>
+
+        <!-- Text column -->
+        <div class="col-9 col-md-10">
+          <h4 class="mb-1" style="font-size: 1.2rem;">
+            {% if edu.url %}
+              <a href="{{ edu.url }}" target="_blank" rel="noopener">
+                {{ edu.institution }}
+              </a>
+            {% else %}
+              {{ edu.institution }}
+            {% endif %}
+          </h4>
+
+          <p class="mb-1">
+            {{ edu.studyType }}, {{ edu.area }},
+            {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
+          </p>
+        </div>
+
       </div>
-    {% endif %}
+    {% endfor %}
     </div>
 
-  <!-- Text column -->
-  <div class="col-9 col-md-10">
-  
-    <!-- Institution (smaller font + link) -->
-    <h4 class="mb-1" style="font-size: 1.2rem;">
-      {% if edu.url %}
-        <a href="{{ edu.url }}" target="_blank" rel="noopener">
-          {{ edu.institution }}
-        </a>
-      {% else %}
-        {{ edu.institution }}
-      {% endif %}
-    </h4>
-  
-    <!-- Degree line -->
-    <p class="mb-1">
-      {{ edu.studyType }}, {{ edu.area }},
-      {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
-    </p>
   </div>
-
-
-  </div>
-{% endfor %}
 </div>
+
 
 
 ## research interests

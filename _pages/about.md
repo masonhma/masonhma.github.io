@@ -77,7 +77,7 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
   <div class="col-9 col-md-10">
   
     <!-- Institution (smaller font + link) -->
-    <h4 class="mb-1" style="font-size: 1.05rem;">
+    <h4 class="mb-1" style="font-size: 1.1rem;">
       {% if edu.url %}
         <a href="{{ edu.url }}" target="_blank" rel="noopener">
           {{ edu.institution }}

@@ -29,7 +29,7 @@ research_interests:
   - Physics-based machine learning and artificial intelligence for modeling and optimization
 
 awards:
-  - NSF HAMMER ERC Perfect Pitch Competition Winner (UTK site), 2023, 2025
+  - NSF HAMMER ERC Perfect Pitch Competition Winner (UTK site), 2024
   - Graduate Student Senate Travel Award, University of Tennessee, Knoxville, 2023
   - Graduate Advancement Training and Education (GATE) Fellowship, Science Alliance, University of Tennessee, Knoxville, 2021, 2022
   - Lloyd W Crawford Fellowship, University of Tennessee, Knoxville, 2020, 2021.

@@ -28,6 +28,12 @@ research_interests:
   - Dynamical systems modeling, bifurcation, control and automation for manufacturing processes
   - Physics-based machine learning and artificial intelligence for modeling and optimization
 
+awards:
+  - NSF HAMMER ERC Perfect Pitch Competition Winner (UTK site), 2023, 2025
+  - Graduate Student Senate Travel Award, University of Tennessee, Knoxville, 2023
+  - Graduate Advancement Training and Education (GATE) Fellowship, Science Alliance, University of Tennessee, Knoxville, 2021, 2022
+  - Lloyd W Crawford Fellowship, University of Tennessee, Knoxville, 2020, 2021.
+
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -93,6 +99,13 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 ## research interests
 <ul>
 {% for item in page.research_interests %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+## wards
+<ul>
+{% for item in page.awards %}
   <li>{{ item }}</li>
 {% endfor %}
 </ul>

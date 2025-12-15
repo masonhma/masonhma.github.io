@@ -198,11 +198,11 @@
   "services": [
     {
       "name": "Convergence Research Pillar, NSF HAMMER ERC Student Leadership Council (SLC)",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "summary": "the primary responsibility of an SLC is for the organization of student activities. SLCs are also responsible for carrying out a Strengths, Weaknesses, Opportunities, and Threats (SWOT) analysis during the center’s NSF site visit and communicating the results to the center director and leadership team, as well as to the NSF site visit team",
+      "highlights": ["UTK SLC representative", "Scientific lead", "Data management"],
       "startDate": "2014",
       "endDate": "2025",
-      "url": "https://hammer.osu.edu/"
+      "url": "https://hammer.osu.edu/about-us/councils-and-board"
     }
   ],
   

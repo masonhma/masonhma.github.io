@@ -52,7 +52,6 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 
 <br><br>
 ## education
-
 <div class="education-list">
 {% assign education = site.data.resume.education | sort: "startDate" | reverse %}
 {% for edu in education %}
@@ -74,7 +73,6 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
     {% endif %}
     </div>
 
-
     <!-- Text column -->
     <div class="col-9 col-md-10">
       <h4 class="mb-1">{{ edu.institution }}</h4>
@@ -95,6 +93,7 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 {% endfor %}
 </div>
 
+
 <br><br>
 ## research interests
 <ul>
@@ -103,6 +102,8 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 {% endfor %}
 </ul>
 
+
+<br><br>
 ## wards
 <ul>
 {% for item in page.awards %}

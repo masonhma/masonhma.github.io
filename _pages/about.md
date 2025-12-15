@@ -13,9 +13,6 @@ profile:
   image: portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Email: hma19@vols.utk.edu</p>
-    <p>525 John D. Tickle Engineering Building, 817 Neyland Drive</p>
-    <p>Knoxville, TN 37996-2315</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -46,9 +43,6 @@ latest_posts:
 ---
 
 I am a Ph.D. candidate at the Department of Industrial and Systems Engineering of The University of Tennessee, Knoxville, working with Drs. Tony Shi and Tony Schmitz. My research areas are manufacturing processes and systems innovations, with a focus on machining, metal additive manufacuting, hybrid, and smart manufacturing, to advance the next-generation design and manufacturing.
-
-I am a Ph.D. candidate at the Department of Industrial and Systems Engineering of The University of Tennessee, Knoxville, working with Drs. Tony Shi and Tony Schmitz. My research areas are manufacturing processes and systems innovations, with a focus on machining, metal additive manufacuting, hybrid, and smart manufacturing, to advance the next-generation design and manufacturing.
-
 
 Before starting my Ph.D. journey, I received my BS degree in Automation Science and Engineering from Tsinghua University in 2014. I also received a MS degree in Management Science and Engineering from Peking University in 2017, and a MS degree in Industrial Engineering from The University of Wisconsin-Madison in 2019.
 

@@ -73,21 +73,27 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
     {% endif %}
     </div>
 
-    <!-- Text column -->
-    <div class="col-9 col-md-10">
-      <h4 class="mb-1">{{ edu.institution }}</h4>
-
-      <p class="mb-1">
-        {{ edu.studyType }}, {{ edu.area }},
-        {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
-      </p>
-
-      {% if edu.extra %}
-        {% for line in edu.extra %}
-          <p class="mb-0">{{ line }}</p>
-        {% endfor %}
+  <!-- Text column -->
+  <div class="col-9 col-md-10">
+  
+    <!-- Institution (smaller font + link) -->
+    <h4 class="mb-1" style="font-size: 1.05rem;">
+      {% if edu.url %}
+        <a href="{{ edu.url }}" target="_blank" rel="noopener">
+          {{ edu.institution }}
+        </a>
+      {% else %}
+        {{ edu.institution }}
       {% endif %}
-    </div>
+    </h4>
+  
+    <!-- Degree line -->
+    <p class="mb-1">
+      {{ edu.studyType }}, {{ edu.area }},
+      {{ edu.startDate | slice: 0,4 }}–{{ edu.endDate | slice: 0,4 }}
+    </p>
+  </div>
+
 
   </div>
 {% endfor %}

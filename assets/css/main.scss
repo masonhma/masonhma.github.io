@@ -23,3 +23,8 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Reviewers keywords font size */
+.list-group-name {
+  font-size: 1rem;
+}

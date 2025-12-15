@@ -643,3 +643,6 @@ jsonresume:
   - interests
   - references
   - teaching
+  - reviewers
+  - services
+  - memberships

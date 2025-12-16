@@ -115,7 +115,7 @@ Before starting my Ph.D. journey, I received my BS degree in Automation Science 
 
 
 
-## awards
+## awards and recognitions
 <ul>
 {% for item in page.awards %}
   <li>{{ item }}</li>

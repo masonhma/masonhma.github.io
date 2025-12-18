@@ -27,7 +27,12 @@ $max-content-width: {{ site.max_width }};
 h2.key-subtitle {
   text-align: center;
   color: var(--global-theme-color);
+
+  font-size: 1.4rem;        /* smaller than default h2 */
+  font-weight: 300;         /* lighter */
+  letter-spacing: 0.03em;   /* airy, less heavy */
+
   margin-top: 2.2rem;
   margin-bottom: 1.4rem;
-  font-weight: normal;
 }
+

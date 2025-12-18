@@ -24,9 +24,9 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-.presentations-section {
+.page h2.presentations-section {
   text-align: center;
-  color: var(--global-accent-color);
+  color: var(--global-accent-color) !important;
   margin-top: 2.2rem;
   margin-bottom: 1.4rem;
   font-weight: 500;

@@ -14,7 +14,7 @@ nav_order: 3
 {% include bib_search.liquid %}
 
 
-<h2 style="text-align:center; color:#d63384;">refereed journal papers</h2>
+<h2 class = "key-subtitle">refereed journal papers</h2>
 {% bibliography 
   --file papers
   --template bib 
@@ -22,7 +22,7 @@ nav_order: 3
 %}
 
 
-<h2 style="text-align:center; color:#d63384;">under review</h2>
+<h2 class = "key-subtitle">under review</h2>
 {% bibliography 
   --file papers
   --template bib 
@@ -30,7 +30,7 @@ nav_order: 3
 %}
 
 
-<h2 style="text-align:center; color:#d63384;">working papers</h2>
+<h2 class = "key-subtitle">working papers</h2>
 {% bibliography 
   --file papers
   --template bib 
@@ -38,7 +38,7 @@ nav_order: 3
 %}
 
 
-<h2 style="text-align:center; color:#d63384;">Refereed conference proceedings</h2>
+<h2 class = "key-subtitle">refereed conference proceedings</h2>
 {% bibliography 
   --file papers
   --template bib 

@@ -23,3 +23,9 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.location i {
+  margin-right: 0.25rem;
+  color: var(--global-accent-color);
+}
+

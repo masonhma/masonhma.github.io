@@ -23,21 +23,3 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-
-
-.presentation-location {
-  margin-top: 0.4rem;
-  font-size: 0.85rem;
-  line-height: 1.2;
-  color: var(--global-text-color-light);
-}
-
-.presentation-location i {
-  margin-right: 0.3rem;
-  color: var(--global-accent-color);
-}
-
-/* Optional: tighten logo → location spacing */
-.abbr .preview {
-  margin-bottom: 0.25rem;
-}

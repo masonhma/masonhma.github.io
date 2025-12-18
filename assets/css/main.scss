@@ -26,7 +26,7 @@ $max-content-width: {{ site.max_width }};
 
 .page h2.presentations-section {
   text-align: center;
-  color: var(--global-theme-color);
+  color: var(--global-theme-color) !important;
   margin-top: 2.2rem;
   margin-bottom: 1.4rem;
   font-weight: 500;

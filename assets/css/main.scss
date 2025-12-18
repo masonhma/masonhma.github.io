@@ -36,3 +36,15 @@ h2.key-subtitle {
   margin-bottom: 1.4rem;
 }
 
+.sub-section-title {
+  color: var(--global-theme-color); /* adapts light/dark */
+  font-weight: 600;                 /* same visual weight as before */
+}
+
+.sub-section-title i {
+  font-size: 0.9rem;                /* keep current icon size */
+  font-weight: normal;
+  margin-right: 0.35rem;
+  color: var(--global-theme-color); /* icon matches title */
+}
+

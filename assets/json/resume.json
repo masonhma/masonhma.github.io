@@ -30,7 +30,29 @@
       "startDate": "2014",
       "endDate": "2017",
       "logo": "pku_logo_2.png",
-      "summary": "Conduct research in production planning and scheduling for shop floor management in oil well equipment assembly and papermaking factories, particularly focusing on the solver development and inplementation of Advanced Planning and Scheduling (APS), and its integration with ERP, MRP, and MES",
+      "summary": "Conduct research in production planning and scheduling for shop floor management in oil well equipment assembly and papermaking factories, particularly focusing on the solver development and inplementation of Advanced Planning and Scheduling (APS), and its integration with ERP, MRP, and MES.",
+      "highlights": []
+    },
+    {
+      "name": "National Oilwell Varco (NOV)",
+      "position": "Algorithm and Software Engineer Intern",
+      "url": "https://www.nov.com/",
+      "location": "Houston, TX",
+      "startDate": "2016.01",
+      "endDate": "2016.07",
+      "logo": "NOV.png",
+      "summary": "On-site investigation of workflow of each production department of NOV Houston factory for production of deep water blow-out preventer (BOP); Integrate data of sales, BOM, production feedback, etc., from ERP, MRP, and MES systems; Develop intelligent production planning and scheduling solver and implement on each department of the Houston factory.",
+      "highlights": []
+    },
+    {
+      "name": "Digital China",
+      "position": "Smart City Summer Intern",
+      "url": "https://www.digitalchina.com/",
+      "location": "Beijing, China",
+      "startDate": "2013.06",
+      "endDate": "2013.08",
+      "logo": "digital_China.png",
+      "summary": "Systematic investigation of progress and future direction of smart city in China; Lead the design and writing of the industry research report by a group of six summer intern students; Report on internal Smart City Workshop of Digital China.",
       "highlights": []
     }
   ],

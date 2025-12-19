@@ -94,9 +94,9 @@
         {% endif %}
       {% endif %}
 
-        {% if entry.pdf %}
-          {% if entry.pdf contains '://' %}
-            <a href="{{ entry.pdf }}"
+        {% if entry.paper %}
+          {% if entry.paper contains '://' %}
+            <a href="{{ entry.paper }}"
                class="btn btn-sm btn-outline-primary z-depth-0"
                target="_blank"
                rel="noopener noreferrer"
@@ -104,7 +104,7 @@
               Paper
             </a>
           {% else %}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
+            <a href="{{ entry.paper | prepend: '/assets/pdf/' | relative_url }}"
                class="btn btn-sm btn-outline-primary z-depth-0"
                target="_blank"
                rel="noopener noreferrer"

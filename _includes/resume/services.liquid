@@ -2,6 +2,8 @@
   {% for content in data[1] %}
     <li class="list-group-item">
       <div class="row">
+        
+        <!-- left panel -->
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column pr-4">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
@@ -12,7 +14,24 @@
             {% assign date = '' %}
           {% endif %}
           <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+
+          <!-- Logo -->
+            {% if content.logo %}
+              <tr>
+                <td class="pt-2">
+                  <img
+                    src="{{ content.logo | prepend: 'assets/img/presentation_preview/' | relative_url }}"
+                    alt="{{ content.name }} logo"
+                    class="img-fluid"
+                    style="max-width: 60px; max-height: 60px;"
+                  >
+                </td>
+              </tr>
+            {% endif %}
+
         </div>
+
+        <!-- right panel -->
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.name }}</a>

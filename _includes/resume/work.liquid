@@ -58,11 +58,11 @@
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
 
           <!-- Position -->
-          <h6 class="title font-weight-bold text-primary">
+          <h5 class="title font-weight-bold text-primary">
             {{ content.position }}
-          </h6>
+          </h5>
 
-          <h5 class="font-weight-bold">
+          <h6 class="font-weight-bold">
             {% if content.url %}
               <a href="{{ content.url }}" target="_blank" rel="noopener">
                 {{ content.name }}
@@ -70,7 +70,7 @@
             {% else %}
               {{ content.name }}
             {% endif %}
-          </h5>
+          </h6>
 
           <!-- Summary -->
           {% if content.summary %}

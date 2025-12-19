@@ -39,13 +39,13 @@
 
           <!-- Major ABOVE university -->
           {% if content.area %}
-            <h6 class="font-italic">
+            <h5 class="font-italic">
               {{ content.area }}
-            </h6>
+            </h5>
           {% endif %}
 
           <!-- University -->
-          <h5 class="font-weight-bold">
+          <h6 class="font-weight-bold">
              {% if content.url %}
               <a href="{{ content.url }}" target="_blank" rel="noopener">
                 {{ content.institution }}
@@ -53,7 +53,7 @@
             {% else %}
               {{ content.institution }}
             {% endif %}
-          </h5>
+          </h6>
 
           <!-- Dissertation -->
           {% if content.dissertation %}

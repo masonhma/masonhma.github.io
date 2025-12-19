@@ -61,11 +61,11 @@
           {% comment %} ---------- TEACHING ASSISTANT / INSTRUCTOR ---------- {% endcomment %}
           {% assign ta_courses = inst.courses | where_exp: "c", "c.title contains 'Assistant' or c.title contains 'Instructor'" %}
           {% if ta_courses.size > 0 %}
-            <h5 class="ml-1 ml-md-4 font-weight-bold text-primary mt-3">
+            <h5 class="font-weight-bold text-primary mt-3">
               {{ ta_courses.first.title }}
             </h5>
 
-            <ul class="ml-1 ml-md-4">
+            <ul class="ml-1 ml-md-2">
               {% for c in ta_courses %}
                 <li>
                   {{ c.course }}
@@ -85,11 +85,11 @@
           {% comment %} ---------- GUEST LECTURE ---------- {% endcomment %}
           {% assign guest_courses = inst.courses | where: "title", "Guest Lecturer" %}
           {% if guest_courses.size > 0 %}
-            <h5 class="ml-1 ml-md-4 font-weight-bold text-primary mt-4">
+            <h5 class="font-weight-bold text-primary mt-4">
               Guest Lecturer
             </h5>
 
-            <ul class="ml-1 ml-md-4">
+            <ul class="ml-1 ml-md-2">
               {% for c in guest_courses %}
                 <li>{{ c.course }}</li>
               {% endfor %}

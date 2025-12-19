@@ -62,7 +62,7 @@
             {{ content.position }}
           </h6>
 
-          <h6>
+          <h5 class="font-weight-bold ml-1 ml-md-4">
             {% if content.url %}
               <a href="{{ content.url }}" target="_blank" rel="noopener">
                 {{ content.name }}
@@ -70,7 +70,7 @@
             {% else %}
               {{ content.name }}
             {% endif %}
-          </h6>
+          </h5>
 
           <!-- Summary -->
           {% if content.summary %}

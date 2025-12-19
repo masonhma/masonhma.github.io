@@ -85,9 +85,9 @@
           {% comment %} ---------- GUEST LECTURE ---------- {% endcomment %}
           {% assign guest_courses = inst.courses | where: "title", "Guest Lecturer" %}
           {% if guest_courses.size > 0 %}
-            <h6 class="ml-1 ml-md-4 font-weight-bold text-primary mt-4">
+            <h5 class="ml-1 ml-md-4 font-weight-bold text-primary mt-4">
               Guest Lecture
-            </h6>
+            </h5>
 
             <ul class="ml-1 ml-md-4">
               {% for c in guest_courses %}

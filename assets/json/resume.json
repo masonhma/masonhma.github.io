@@ -198,7 +198,8 @@
  
   "services": [
     {
-      "name": "Convergence Research Pillar, NSF HAMMER ERC Student Leadership Council (SLC)",
+      "name": "Convergence Research Pillar",
+      "institution": "NSF HAMMER ERC Student Leadership Council (SLC)",
       "summary": "The primary responsibility of an SLC is for the organization of student activities. SLCs are also responsible for carrying out a Strengths, Weaknesses, Opportunities, and Threats (SWOT) analysis during the center’s NSF site visit and communicating the results to the center director and leadership team, as well as to the NSF site visit team.",
       "highlights": ["UTK SLC representative", "Scientific lead", "Data management"],
       "startDate": "2014",

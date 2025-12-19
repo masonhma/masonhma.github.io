@@ -3,7 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: |
-  Graduate Research Assistant, Ph.D. Candidate<br>
+  Ph.D. Candidate - Industrial Engineering<br>
+  <a href="https://utorii.com/gate-awards/" target="_blank">GATE Fellow</a><br>
   <a href="https://www.utidealab.com/" target="_blank">Manufacturing Intelligent Dynamics (MINDS) Lab</a><br>
   <a href="https://mtrc.utk.edu/" target="_blank">Machine Tool Research Center</a><br>
   <a href="https://www.utk.edu/" target="_blank">University of Tennessee, Knoxville</a>

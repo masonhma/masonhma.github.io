@@ -30,11 +30,16 @@
               </tr>
 
               {% if content.location %}
-                <p class="location mt-1">
-                  <i class="fa-solid fa-location-dot iconlocation"></i>
-                  {{ content.location }}
-                </p>
+                <tr>
+                  <td>
+                    <p class="location mt-1 mb-0">
+                      <i class="fa-solid fa-location-dot"></i>
+                      {{ content.location }}
+                    </p>
+                  </td>
+                </tr>
               {% endif %}
+
 
               <!-- Logo -->
               {% if content.logo %}

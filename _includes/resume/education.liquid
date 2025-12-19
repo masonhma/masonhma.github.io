@@ -45,11 +45,15 @@
           {% endif %}
 
           <!-- University -->
-          <h6>
-            <a href="{{ content.url }}" target="_blank">
+          <h5 class="font-weight-bold ml-1 ml-md-4">
+             {% if content.url %}
+              <a href="{{ content.url }}" target="_blank" rel="noopener">
+                {{ content.institution }}
+              </a>
+            {% else %}
               {{ content.institution }}
-            </a>
-          </h6>
+            {% endif %}
+          </h5>
 
           <!-- Dissertation -->
           {% if content.dissertation %}

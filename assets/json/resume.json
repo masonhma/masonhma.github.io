@@ -157,7 +157,7 @@
         },
         {
           "course": "IE 320: Simulation and Probabilistic Modeling",
-          "title": "Teaching assistant",
+          "title": "Teaching Assistant",
           "semester": "Spring",
           "year": "2019",
           "students_qty": 80
@@ -167,21 +167,21 @@
           "title": "Instructor",
           "semester": "Fall",
           "year": "2018",
-          "students_qty": 80
+          "students_qty": 70
         },
         {
           "course": "IE 320: Simulation and Probabilistic Modeling",
-          "title": "Teaching assistant",
+          "title": "Teaching Assistant",
           "semester": "Fall",
           "year": "2018",
-          "students_qty": 80
+          "students_qty": 70
         },
         {
           "course": "IE 620: Simulation Modeling and Analysis",
-          "title": "Teaching assistant",
+          "title": "Teaching Assistant",
           "semester": "Spring",
           "year": "2018",
-          "students_qty": 80
+          "students_qty": 20
         }
       ]
     }

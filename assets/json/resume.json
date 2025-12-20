@@ -149,35 +149,35 @@
       "logo": "UW_madison_logo_1.png",
       "courses": [
         {
-          "course": "IE 321: Simulation Modeling Laboratory",
+          "course": "ISyE 321: Simulation Modeling Laboratory",
           "title": "Instructor",
           "semester": "Spring",
           "year": "2019",
           "students_qty": 80
         },
         {
-          "course": "IE 321: Simulation Modeling Laboratory",
+          "course": "ISyE 321: Simulation Modeling Laboratory",
           "title": "Instructor",
           "semester": "Fall",
           "year": "2018",
           "students_qty": 70
         },
         {
-          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "course": "ISyE 320: Simulation and Probabilistic Modeling",
           "title": "Teaching Assistant",
           "semester": "Spring",
           "year": "2019",
           "students_qty": 80
         },
         {
-          "course": "IE 320: Simulation and Probabilistic Modeling",
+          "course": "ISyE 320: Simulation and Probabilistic Modeling",
           "title": "Teaching Assistant",
           "semester": "Fall",
           "year": "2018",
           "students_qty": 70
         },
         {
-          "course": "IE 620: Simulation Modeling and Analysis",
+          "course": "ISyE 620: Simulation Modeling and Analysis",
           "title": "Teaching Assistant",
           "semester": "Spring",
           "year": "2018",

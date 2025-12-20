@@ -58,8 +58,32 @@
             </p>
           {% endif %}
 
-          {% comment %} ---------- TEACHING ASSISTANT / INSTRUCTOR ---------- {% endcomment %}
-          {% assign ta_courses = inst.courses | where_exp: "c", "c.title contains 'Assistant' or c.title contains 'Instructor'" %}
+          {% comment %} ----------  INSTRUCTOR ---------- {% endcomment %}
+          {% assign ta_courses = inst.courses | where_exp: "c", "c.title contains 'Instructor'" %}
+          {% if ta_courses.size > 0 %}
+            <h5 class="font-weight-bold text-primary mt-3">
+              {{ ta_courses.first.title }}
+            </h5>
+
+            <ul>
+              {% for c in ta_courses %}
+                <li>
+                  {{ c.course }}
+                  {% if c.semester and c.year %}
+                    <ul>
+                      <li>{{ c.semester }} {{ c.year }}</li>
+                      {% if c.students_qty %}
+                        <li>Number of students: {{ c.students_qty }}</li>
+                      {% endif %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% comment %} ---------- TEACHING ASSISTANT ---------- {% endcomment %}
+          {% assign ta_courses = inst.courses | where_exp: "c", "c.title contains 'Assistant'" %}
           {% if ta_courses.size > 0 %}
             <h5 class="font-weight-bold text-primary mt-3">
               {{ ta_courses.first.title }}

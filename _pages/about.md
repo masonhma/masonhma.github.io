@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: |
   Ph.D. Candidate - Industrial Engineering<br>
-  <a href="https://utorii.com/gate-awards/" target="_blank">GATE Fellow 2021, 2022</a><br>
+  <a href="https://utorii.com/gate-awards/" target="_blank">GATE Fellow 2021, 2022</a> | <a href="https://hammer.osu.edu/about-us/councils-and-board" target="_blank">NSF ERC-HAMMER SLC Convergence Research Lead, 2024</a><br>
   <a href="https://www.utidealab.com/" target="_blank">Manufacturing Intelligent Dynamics (MINDS) Lab</a><br>
   <a href="https://mtrc.utk.edu/" target="_blank">Machine Tool Research Center</a><br>
   <a href="https://www.utk.edu/" target="_blank">University of Tennessee, Knoxville</a>

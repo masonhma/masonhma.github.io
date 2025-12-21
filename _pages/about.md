@@ -22,10 +22,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 research_interests:
-  - Solid-state additive manufacturing, machining, hybrid manufacturing, smart manufacturing
+  - Machining, additive friction stir deposition, wire arc additve manufacturing, hybrid and smart manufacturing
   - "Machine-tool-process-materials relation: mechanics, vibration, materials behaviors, CNC design"
   - Machine tool vibration theory and applications for machining and additive friction stir deposition
-  - Analytical and numerical process modeling from machine tool to materials behaviors
   - Dynamical systems modeling, bifurcation, control and automation for manufacturing processes
   - Physics-based machine learning and artificial intelligence for modeling and optimization
 
@@ -46,10 +45,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate at the Department of Industrial and Systems Engineering of The University of Tennessee, Knoxville, working with Drs. <a href="https://www.utidealab.com/director-biography" target="_blank">Tony Shi</a> and <a href="https://mtrc.utk.edu/tony-schmitz/" target="_blank">Tony Schmitz</a>. My research areas are manufacturing processes and systems innovations, with a focus on machining, additive friction stir deposition (AFSD), wire-arc additive manufacturing (WAAM), hybrid and smart manufacturing, to advance the next-generation design and manufacturing. Before starting my Ph.D. journey, I received my BS degree in Automation Science and Engineering from Tsinghua University in 2014. I also received a MS degree in Management Science and Engineering from Peking University in 2017, and a MS degree in Industrial Engineering from The University of Wisconsin-Madison in 2019.
+I am a Ph.D. candidate at the Department of Industrial and Systems Engineering of The University of Tennessee, Knoxville, working with Drs. <a href="https://www.utidealab.com/director-biography" target="_blank">Tony Shi</a> and <a href="https://mtrc.utk.edu/tony-schmitz/" target="_blank">Tony Schmitz</a>. My research areas are manufacturing processes and systems innovations, with a focus on machining, additive friction stir deposition (AFSD), wire-arc additive manufacturing (WAAM), hybrid and smart manufacturing, to advance next-generation design and manufacturing. My approach is to conduct fundamental research in physics-based modeling, tightly coupled with careful experimental verification and validation, and strategically complemented by data analytics methods, including physics-based machine learning. Before starting my Ph.D. journey, I received my BS degree in Automation Science and Engineering from Tsinghua University in 2014. I also received a MS degree in Management Science and Engineering from Peking University in 2017, and a MS degree in Industrial Engineering from The University of Wisconsin-Madison in 2019.
 
 I have published 11 reserch articles, including 9 journal papers and 2 conference preceedings. I have given over 10 technical presentations at various international conferences, workshops, and project meetings. As a Graduate Research Assistant, my resarch has been supported by <a href="https://hammer.osu.edu/" target="_blank">NSF Engineering Research Center for Hybrid Autonomous Manufacturing Moving from Evolution to Revolution (ERC-HAMMER)</a>, <a href="https://seamtn.utk.edu/" target="_blank">DoD Southeastern Advanced Machine Tools Network (SEAMTN)</a>, <a href="https://research.utk.edu/aitn/" target="_blank">AI Tennessee Initiative</a>, and <a href="https://utorii.com/gate-awards/" target="_blank">The University of Tennessee-Oak Ridge Innovation Institute (UT-ORII)</a>.
 
+
+
+## research interests
+<ul>
+{% for item in page.research_interests %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
 
 
 
@@ -104,18 +111,6 @@ I have published 11 reserch articles, including 9 journal papers and 2 conferenc
 
   </div>
 </div>
-
-
-
-
-
-## research interests
-<ul>
-{% for item in page.research_interests %}
-  <li>{{ item }}</li>
-{% endfor %}
-</ul>
-
 
 
 ## awards and recognitions

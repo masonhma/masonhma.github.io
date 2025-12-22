@@ -5,7 +5,7 @@ description: support machine tool chatter research for developing cutting mechan
 img: assets/img/projects_imgs/seamtn1.png
 redirect: https://seamtn.utk.edu/
 importance: 2
-category: work
+category: research
 giscus_comments: true
 ---
 

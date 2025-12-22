@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SEAMTN
-description: support machine tool chatter research
+description: support machine tool chatter research for developing cutting mechanics based machine learning modeling and accurate stability map generation from time domain in real time
 img: assets/img/projects_imgs/seamtn1.png
 redirect: https://seamtn.utk.edu/
 importance: 2

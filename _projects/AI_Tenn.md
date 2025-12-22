@@ -5,7 +5,7 @@ description: support physics-based machine learning and AI research by developin
 img: assets/img/projects_imgs/AI_TEnn.png
 redirect: https://research.utk.edu/aitn/
 importance: 4
-category: work
+category: research
 related_publications: true
 ---
 

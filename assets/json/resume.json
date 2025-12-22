@@ -5,10 +5,21 @@
       "position": "Graduate Research Assistant",
       "url": "https://www.utk.edu/",
       "location": "Knoxville, TN",
-      "startDate": "2020",
+      "startDate": "2022",
       "endDate": "2026",
       "logo": "utk_1.png",
       "summary": "Conduct research in machine tool chatter, additive friction stir deposition, wire-arc additive manufacturing, hybrid manufacturing and smart manufacturing.",
+      "highlights": []
+    },
+    {
+      "name": "University of Tennessee Space Institute",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.utsi.edu/",
+      "location": "Tullahoma, TN",
+      "startDate": "2020",
+      "endDate": "2022",
+      "logo": "utsi.png",
+      "summary": "Conduct research in smart shop, factory and supply chain management with a focus on production planning and scheduling enabled symbolic learning.",
       "highlights": []
     },
      {

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: presentations
+description: Presentations in reversed chronological order by categories, including presentations on conferences, competitions, and project meetings.
 permalink: /presentations/
 nav: true
 nav_order: 4

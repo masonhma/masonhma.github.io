@@ -3,6 +3,7 @@ layout: page
 title: SEAMTN
 description: support machine tool chatter research
 img: assets/img/projects_imgs/seamtn1.png
+redirect: https://seamtn.utk.edu/
 importance: 2
 category: work
 giscus_comments: true

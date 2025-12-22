@@ -4,7 +4,7 @@ title: Oak Ridge National Labratory Project
 description: support research on reduced order modeling for reheating furnace using hydrogen
 img: assets/img/projects_imgs/ornl.png
 importance: 25
-category: work
+category: hide
 giscus_comments: true
 ---
 

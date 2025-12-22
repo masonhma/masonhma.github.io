@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI Tennessee Seed Project
+title: UTK AI Tennessee Seed Project
 description: support physics-based machine learning and AI research by developing Machining Dynamics Probe - an AI system for enabling next-generation intelligent machine tools
 img: assets/img/projects_imgs/AI_TEnn.png
 redirect: https://research.utk.edu/aitn/

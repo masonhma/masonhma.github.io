@@ -5,7 +5,7 @@ description: support wire arc additive manufacturing (WAAM) research for develop
 img: assets/img/projects_imgs/NSF_Hammer1.png
 redirect: https://hammer.osu.edu/
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 

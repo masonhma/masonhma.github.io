@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications in reversed chronological order by categories, including refereed journal papers, under review, working papers, and refereed conference proceedings.
+description: Publications in reversed chronological order by categories, including refereed journal papers, under review, working papers, and refereed conference proceedings.
 nav: true
 nav_order: 3
 ---

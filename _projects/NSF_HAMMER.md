@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NSF ERC-HAMMER
-description: support WAAM and WAAM + forging research
+description: support wire arc additive manufacturing (WAAM) research for developing numerical/machine learning process modeling; suppport WAAM + Forging research for system development and process modeling
 img: assets/img/projects_imgs/NSF_Hammer1.png
 redirect: https://hammer.osu.edu/
 importance: 1

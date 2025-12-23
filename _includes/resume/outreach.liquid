@@ -1,0 +1,105 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign work = data[1] | sort: 'startDate' | reverse %}
+  {% for content in work %}
+    <li class="list-group-item">
+      <div class="row">
+
+        <!-- Left column: date + location + logo -->
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+          {% if content.startDate %}
+            {% assign startDate = content.startDate %}
+            {% assign endDate = content.endDate | default: 'Present' %}
+            {% assign date = startDate | append: ' - ' | append: endDate %}
+          {% else %}
+            {% assign date = '' %}
+          {% endif %}
+
+          <table class="table-cv">
+            <tbody>
+
+              <!-- Date badge -->
+              <tr>
+                <td>
+                  <span
+                    class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                    style="min-width: 85px"
+                  >
+                    {{ date }}
+                  </span>
+                </td>
+              </tr>
+
+              {% if content.location %}
+                <tr>
+                  <td>
+                    <p class="location mt-1 mb-0">
+                      <i class="fa-solid fa-location-dot iconlocation"></i>
+                      {{ content.location }}
+                    </p>
+                  </td>
+                </tr>
+              {% endif %}
+
+
+              <!-- Logo -->
+              {% if content.logo %}
+                <tr>
+                  <td class="pt-2">
+                    <img
+                      src="{{ content.logo | prepend: '/assets/img/education/' | relative_url }}"
+                      alt="{{ content.name }} logo"
+                      class="img-fluid"
+                      style="max-width: 60px; max-height: 60px;"
+                    >
+                  </td>
+                </tr>
+              {% endif %}
+
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Right column: content -->
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+
+          <!-- Position -->
+          <h5 class="title font-weight-bold text-primary">
+            {{ content.position }}
+          </h5>
+
+          <h6 class="font-weight-bold">
+            {% if content.url %}
+              <a href="{{ content.url }}" target="_blank" rel="noopener">
+                {{ content.name }}
+              </a>
+            {% else %}
+              {{ content.name }}
+            {% endif %}
+          </h6>
+
+          <!-- Summary -->
+          {% if content.summary %}
+            <h6
+              class="ml-1 ml-md-4"
+              style="font-size: 0.95rem; font-style: italic"
+            >
+              {{ content.summary }}
+            </h6>
+          {% endif %}
+
+          <!-- Highlights -->
+          {% if content.highlights and content.highlights.size > 0 %}
+            <ul class="items ml-1 ml-md-4">
+              {% for item in content.highlights %}
+                <li>
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

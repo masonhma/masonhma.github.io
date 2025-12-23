@@ -41,7 +41,7 @@
       "startDate": "2014",
       "endDate": "2017",
       "logo": "pku_logo_2.png",
-      "summary": "Conduct research in production planning and scheduling for shop floor management in oil well equipment assembly and papermaking factories, particularly focusing on the solver development and inplementation of Advanced Planning and Scheduling (APS), and its integration with ERP, MRP, and MES.",
+      "summary": "Conduct research in production planning and scheduling for shop floor management in high-end equipment manufacturing industry, particularly in aerospace, oilwell, and papermaking industries, for the solver development and inplementation of Advanced Planning and Scheduling (APS), and its integration with ERP, MRP, and MES.",
       "highlights": []
     },
     {
@@ -52,7 +52,7 @@
       "startDate": "2016.1",
       "endDate": "2016.7",
       "logo": "NOV.png",
-      "summary": "On-site investigation of workflow of each production department of NOV Houston factory for production of deep water blow-out preventer (BOP); Integrate data of sales, BOM, production feedback, etc., from ERP, MRP, and MES systems; Develop intelligent production planning and scheduling solver and implement on each department of the Houston factory.",
+      "summary": "On-site investigation of workflow of each production department for the production of deep water blow-out preventer (BOP) in NOV Houston factory; Integrate data of sales, BOM, production feedback, etc., from ERP, MRP, and MES systems; Develop and implement intelligent production planning and scheduling solver for the NOV Houston factory for improving efficiency.",
       "highlights": []
     }
   ],

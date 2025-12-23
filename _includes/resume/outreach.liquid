@@ -7,9 +7,13 @@
         <!-- Left column: date + location + logo -->
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
           {% if content.startDate %}
-            {% assign startDate = content.startDate %}
-            {% assign endDate = content.endDate | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+            {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' %}
+            {% if content.endDate %}
+              {% assign date = startDate | append: ' - '  | append: endDate %}
+            {% else %}
+               {% assign date = startDate %}
+            {% endif %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
@@ -47,7 +51,7 @@
                   <td class="pt-2">
                     <img
                       src="{{ content.logo | prepend: '/assets/img/education/' | relative_url }}"
-                      alt="{{ content.name }} logo"
+                      alt="{{ content.institution }} logo"
                       class="img-fluid"
                       style="max-width: 60px; max-height: 60px;"
                     >
@@ -70,12 +74,19 @@
           <h6 class="font-weight-bold">
             {% if content.url %}
               <a href="{{ content.url }}" target="_blank" rel="noopener">
-                {{ content.name }}
+                {{ content.institution }}
               </a>
             {% else %}
-              {{ content.name }}
+              {{ content.institution }}
             {% endif %}
           </h6>
+
+          <!-- host -->
+          {% if content.host %}
+            <p>
+              {{ content.host }}
+            </p>
+          {% endif %}
 
           <!-- Summary -->
           {% if content.summary %}

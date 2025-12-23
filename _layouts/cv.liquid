@@ -97,6 +97,8 @@ layout: default
               {% assign section_title = 'invited reviewers' %}
             {% elsif data[0] == 'services' %}
               {% assign section_title = 'professional services' %}
+            {% elsif data[0] == 'outreach' %}
+              {% assign section_title = 'outreach activities' %}
             {% endif %}
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
@@ -134,6 +136,8 @@ layout: default
                   {% include resume/services.liquid %}
                 {% when 'memberships' %}
                   {% include resume/memberships.liquid %}
+                {% when 'outreach' %}
+                  {% include resume/outreach.liquid %}
                 
 
                 {% else %}

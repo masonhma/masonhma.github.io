@@ -239,6 +239,22 @@
       "url": "https://research.utk.edu/aitn/"
     }
   ],
+
+
+  "outreach": [
+    {
+      "name": "NSF ERC-HAMMER Outreach Coordinator",
+      "institution": "MSC Manufacturing Day",
+      "host": "UTK Machine Tool Research Center",
+      "summary": "Collaboration with MSC and NSF ERC-HAMMER to host MSC Manufacturing Day at UTK Machine Tool Research Center to outreach high schools and community colleges.",
+      "highlights": ["Present NSF ERC-HAMMER poster, distribute flyers and stickers to high school students", "About 60 high school students and 5 high school teachers from east Tennessee came to the NSF ERC-HAMMER table to learn what HAMMER is doing, and what hybrid autonomous manufacturing is"],
+      "startDate": "Oct 2024",
+      "location": "Knoxville, TN",
+      "logo": "mfgday_logo.png",
+      "url": "https://www.linkedin.com/posts/msc-industrial-supply_manufacturing-day-is-more-than-an-event-activity-7379904321661972481-ygiY/"
+    }
+  ],
+  
   
    "memberships": [
     {

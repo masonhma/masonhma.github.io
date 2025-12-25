@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I attended NAMRC 51 and presented our research on machining dynamics
+title: I attend NAMRC 51 and present our research on machining dynamics
 date: 2023-6-14
 inline: false
 related_posts: false

@@ -9,8 +9,8 @@ related_posts: false
 From June 12 to 16 2025, I attended the 51st SME's North American Manufacturing Research Conference (NAMRC) at Rutgers University at New Brunswick, NJ, together with my advisor Dr. Tony Shi. I presented our work entitled "Integration of discrete-event dynamics and machining dynamics for machine tool: Modeling, analysis and algorithms".
 
 {% include figure.liquid
-  path="assets/img/presentation_preview/NAMRC51"
-  caption="AFSD temperature evolution during deposition."
+  path="assets/img/presentation_preview/NAMRC51.jpg"
+  caption="Dr. Tony Schmitz hosted the section."
   class="img-fluid"
   zoomable=true
 %}

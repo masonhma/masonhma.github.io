@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I am renewed as a GATE Fellow 2022 🎉✨
+title: I am awarded a GATE Fellow of 2022 🎉✨
 date: 2022-05-05
 inline: false
 related_posts: false

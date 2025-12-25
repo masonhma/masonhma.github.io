@@ -21,7 +21,8 @@ See a <a href="https://www.linkedin.com/posts/mason-h-ma-771705249_sme-asme-namr
 {% include figure.liquid
   path="assets/img/presentation_preview/NAMRC51.jpg"
   caption="Dr. Tony Schmitz hosted the session and presented research on hybrid manufacturing with structured light scanning."
-  sizes="400px"
+  sizes="200px"
+  max-width="200px"
   class="img-fluid"
   zoomable=true
 %}

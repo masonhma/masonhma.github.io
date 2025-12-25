@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am awarded a GATE (Graduate Advancement Training and Education) Fellow 🎉✨!
+I am awarded a GATE (Graduate Advancement Training and Education) Fellow 2021 🎉✨!

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I attended NAMRC 51 and presented our research in machining dynamics
+title: I attended NAMRC 51 and presented our research on machining dynamics
 date: 2023-6-14
 inline: false
 related_posts: false
@@ -10,7 +10,7 @@ From June 12 to 16 2025, I attended the 51st SME's North American Manufacturing 
 
 {% include figure.liquid
   path="assets/img/presentation_preview/NAMRC51.jpg"
-  caption="Dr. Tony Schmitz hosted the session."
+  caption="Dr. Tony Schmitz hosted the session and presented research on hybrid manufacturing with structured light scanning."
   sizes="600px"
   class="img-fluid"
   zoomable=true

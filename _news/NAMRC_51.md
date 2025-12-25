@@ -10,7 +10,7 @@ From June 12 to 16 2025, I attended the 51st SME's North American Manufacturing 
 
 {% include figure.liquid
   path="assets/img/presentation_preview/NAMRC51.jpg"
-  caption="Dr. Tony Schmitz hosted the section."
+  caption="Dr. Tony Schmitz hosted the session."
   class="img-fluid"
   zoomable=true
 %}

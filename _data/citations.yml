@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2026-01-02'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -22,7 +22,7 @@ papers:
     title: 'AFSD-Physics: Exploring the governing equations of temperature evolution during additive friction stir deposition by a human-AI teaming approach'
     year: '2024'
   yKV_P5cAAAAJ:Y0pCki6q_DkC:
-    citations: 23
+    citations: 24
     title: 'AFSD-Nets: A Physics-informed machine learning model for predicting the temperature evolution during additive friction stir deposition'
     year: '2024'
   yKV_P5cAAAAJ:d1gkVwhDpl0C:

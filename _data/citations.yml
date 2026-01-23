@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-21'
+  last_updated: '2026-01-23'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
     citations: 6
@@ -30,7 +30,7 @@ papers:
     title: 'Workforce allocation in motorcycle transmission assembly lines: A case study on modeling, analysis, and improvement'
     year: '2020'
   yKV_P5cAAAAJ:hqOjcs7Dif8C:
-    citations: 0
+    citations: 1
     title: A Cutting Mechanics-based Machine Learning Modeling Method to Discover Governing Equations of Machining Dynamics
     year: '2025'
   yKV_P5cAAAAJ:qjMakFHDy7sC:

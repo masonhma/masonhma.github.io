@@ -1,16 +1,20 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-02-27'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
-    citations: 6
+    citations: 5
     title: "Compressive\u2010Sensing\u2010Assisted Mixed Integer Optimization for Dynamical System Discovery With Highly Noisy Data"
+    year: '2025'
+  yKV_P5cAAAAJ:5nxA0vEk-isC:
+    citations: 2
+    title: A cutting mechanics-based machine learning modeling method to discover governing equations of machining dynamics
     year: '2025'
   yKV_P5cAAAAJ:9yKSN-GCB0IC:
     citations: 1
     title: 'Integration of discrete-event dynamics and machining dynamics for machine tool: modeling, analysis and algorithms'
     year: '2023'
   yKV_P5cAAAAJ:LkGwnXOMwfcC:
-    citations: 0
+    citations: 1
     title: An analytical model integrating tool kinematics and material flow for the spindle torque prediction in additive friction stir deposition
     year: '2025'
   yKV_P5cAAAAJ:W7OEmFMy1HYC:
@@ -22,26 +26,22 @@ papers:
     title: 'AFSD-Physics: Exploring the governing equations of temperature evolution during additive friction stir deposition by a human-AI teaming approach'
     year: '2024'
   yKV_P5cAAAAJ:Y0pCki6q_DkC:
-    citations: 24
-    title: 'AFSD-Nets: A Physics-informed machine learning model for predicting the temperature evolution during additive friction stir deposition'
+    citations: 27
+    title: 'AFSD-nets: A physics-informed machine learning model for predicting the temperature evolution during additive friction stir deposition'
     year: '2024'
   yKV_P5cAAAAJ:d1gkVwhDpl0C:
-    citations: 10
+    citations: 11
     title: 'Workforce allocation in motorcycle transmission assembly lines: A case study on modeling, analysis, and improvement'
     year: '2020'
-  yKV_P5cAAAAJ:hqOjcs7Dif8C:
-    citations: 2
-    title: A Cutting Mechanics-based Machine Learning Modeling Method to Discover Governing Equations of Machining Dynamics
-    year: '2025'
   yKV_P5cAAAAJ:qjMakFHDy7sC:
     citations: 8
     title: Automatic design of dispatching rules for real-time optimization of complex production systems
     year: '2019'
   yKV_P5cAAAAJ:u-x6o8ySG0sC:
-    citations: 2
+    citations: 3
     title: A Simulation Optimization-Aided Learning Method for Design Automation of Scheduling Rules
     year: '2022'
   yKV_P5cAAAAJ:u5HHmVD_uO8C:
-    citations: 16
+    citations: 15
     title: A learning-based two-stage optimization method for customer order scheduling
     year: '2021'

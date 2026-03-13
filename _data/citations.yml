@@ -1,14 +1,18 @@
 metadata:
-  last_updated: '2026-02-27'
+  last_updated: '2026-03-13'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
-    citations: 5
+    citations: 6
     title: "Compressive\u2010Sensing\u2010Assisted Mixed Integer Optimization for Dynamical System Discovery With Highly Noisy Data"
     year: '2025'
   yKV_P5cAAAAJ:5nxA0vEk-isC:
-    citations: 2
+    citations: 4
     title: A cutting mechanics-based machine learning modeling method to discover governing equations of machining dynamics
     year: '2025'
+  yKV_P5cAAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: An Interpretable Machine Learning based Predictive Control Method for Manufacturing Processes with Turning as A Case Study
+    year: '2026'
   yKV_P5cAAAAJ:9yKSN-GCB0IC:
     citations: 1
     title: 'Integration of discrete-event dynamics and machining dynamics for machine tool: modeling, analysis and algorithms'
@@ -22,11 +26,11 @@ papers:
     title: 3D multiphysics modeling for probing the non-homogenous parameter distribution in proton exchange membrane electrolyzer cells
     year: '2025'
   yKV_P5cAAAAJ:WF5omc3nYNoC:
-    citations: 12
+    citations: 13
     title: 'AFSD-Physics: Exploring the governing equations of temperature evolution during additive friction stir deposition by a human-AI teaming approach'
     year: '2024'
   yKV_P5cAAAAJ:Y0pCki6q_DkC:
-    citations: 27
+    citations: 28
     title: 'AFSD-nets: A physics-informed machine learning model for predicting the temperature evolution during additive friction stir deposition'
     year: '2024'
   yKV_P5cAAAAJ:d1gkVwhDpl0C:

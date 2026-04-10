@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-04-10'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
-    citations: 6
+    citations: 7
     title: "Compressive\u2010Sensing\u2010Assisted Mixed Integer Optimization for Dynamical System Discovery With Highly Noisy Data"
     year: '2025'
   yKV_P5cAAAAJ:5nxA0vEk-isC:
@@ -26,19 +26,19 @@ papers:
     title: 3D multiphysics modeling for probing the non-homogenous parameter distribution in proton exchange membrane electrolyzer cells
     year: '2025'
   yKV_P5cAAAAJ:WF5omc3nYNoC:
-    citations: 13
+    citations: 14
     title: 'AFSD-Physics: Exploring the governing equations of temperature evolution during additive friction stir deposition by a human-AI teaming approach'
     year: '2024'
   yKV_P5cAAAAJ:Y0pCki6q_DkC:
-    citations: 28
+    citations: 30
     title: 'AFSD-nets: A physics-informed machine learning model for predicting the temperature evolution during additive friction stir deposition'
     year: '2024'
   yKV_P5cAAAAJ:d1gkVwhDpl0C:
-    citations: 11
+    citations: 12
     title: 'Workforce allocation in motorcycle transmission assembly lines: A case study on modeling, analysis, and improvement'
     year: '2020'
   yKV_P5cAAAAJ:qjMakFHDy7sC:
-    citations: 8
+    citations: 9
     title: Automatic design of dispatching rules for real-time optimization of complex production systems
     year: '2019'
   yKV_P5cAAAAJ:u-x6o8ySG0sC:
@@ -46,6 +46,6 @@ papers:
     title: A Simulation Optimization-Aided Learning Method for Design Automation of Scheduling Rules
     year: '2022'
   yKV_P5cAAAAJ:u5HHmVD_uO8C:
-    citations: 15
+    citations: 16
     title: A learning-based two-stage optimization method for customer order scheduling
     year: '2021'

@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-04-29'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
     citations: 7
     title: "Compressive\u2010Sensing\u2010Assisted Mixed Integer Optimization for Dynamical System Discovery With Highly Noisy Data"
     year: '2025'
   yKV_P5cAAAAJ:5nxA0vEk-isC:
-    citations: 4
+    citations: 5
     title: A cutting mechanics-based machine learning modeling method to discover governing equations of machining dynamics
     year: '2025'
   yKV_P5cAAAAJ:8k81kl-MbHgC:
@@ -22,7 +22,7 @@ papers:
     title: An analytical model integrating tool kinematics and material flow for the spindle torque prediction in additive friction stir deposition
     year: '2025'
   yKV_P5cAAAAJ:W7OEmFMy1HYC:
-    citations: 7
+    citations: 8
     title: 3D multiphysics modeling for probing the non-homogenous parameter distribution in proton exchange membrane electrolyzer cells
     year: '2025'
   yKV_P5cAAAAJ:WF5omc3nYNoC:
@@ -46,6 +46,6 @@ papers:
     title: A Simulation Optimization-Aided Learning Method for Design Automation of Scheduling Rules
     year: '2022'
   yKV_P5cAAAAJ:u5HHmVD_uO8C:
-    citations: 16
+    citations: 17
     title: A learning-based two-stage optimization method for customer order scheduling
     year: '2021'

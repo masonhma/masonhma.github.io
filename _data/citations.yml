@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-19'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -21,6 +21,10 @@ papers:
     citations: 1
     title: An analytical model integrating tool kinematics and material flow for the spindle torque prediction in additive friction stir deposition
     year: '2025'
+  yKV_P5cAAAAJ:MXK_kJrjxJIC:
+    citations: 0
+    title: Machine Learning-Enabled Modeling, Bifurcation and Stability Analysis, and Control for Machine Tool Dynamics
+    year: '2026'
   yKV_P5cAAAAJ:W7OEmFMy1HYC:
     citations: 8
     title: 3D multiphysics modeling for probing the non-homogenous parameter distribution in proton exchange membrane electrolyzer cells

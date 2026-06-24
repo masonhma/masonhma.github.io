@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-06-24'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -30,7 +30,7 @@ papers:
     title: 3D multiphysics modeling for probing the non-homogenous parameter distribution in proton exchange membrane electrolyzer cells
     year: '2025'
   yKV_P5cAAAAJ:WF5omc3nYNoC:
-    citations: 16
+    citations: 17
     title: 'AFSD-Physics: Exploring the governing equations of temperature evolution during additive friction stir deposition by a human-AI teaming approach'
     year: '2024'
   yKV_P5cAAAAJ:Y0pCki6q_DkC:

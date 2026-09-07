@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-09-07'
 papers:
   yKV_P5cAAAAJ:2osOgNQ5qMEC:
     citations: 8
@@ -10,7 +10,7 @@ papers:
     title: Machine Learning-Enabled Modeling, Bifurcation and Stability Analysis, and Control for Machine Tool Dynamics
     year: '2026'
   yKV_P5cAAAAJ:5nxA0vEk-isC:
-    citations: 9
+    citations: 10
     title: A cutting mechanics-based machine learning modeling method to discover governing equations of machining dynamics
     year: '2025'
   yKV_P5cAAAAJ:8k81kl-MbHgC:
@@ -26,15 +26,15 @@ papers:
     title: An analytical model integrating tool kinematics and material flow for the spindle torque prediction in additive friction stir deposition
     year: '2025'
   yKV_P5cAAAAJ:W7OEmFMy1HYC:
-    citations: 10
+    citations: 11
     title: 3D multiphysics modeling for probing the non-homogenous parameter distribution in proton exchange membrane electrolyzer cells
     year: '2025'
   yKV_P5cAAAAJ:WF5omc3nYNoC:
-    citations: 20
+    citations: 21
     title: 'AFSD-Physics: Exploring the governing equations of temperature evolution during additive friction stir deposition by a human-AI teaming approach'
     year: '2024'
   yKV_P5cAAAAJ:Y0pCki6q_DkC:
-    citations: 35
+    citations: 36
     title: 'AFSD-Nets: A physics-informed machine learning model for predicting the temperature evolution during additive friction stir deposition'
     year: '2024'
   yKV_P5cAAAAJ:d1gkVwhDpl0C:
